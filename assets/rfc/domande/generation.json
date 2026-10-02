@@ -1,0 +1,1802 @@
+[
+   {
+      "id": "q004",
+      "question": "What secures QUIC?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9001.pdf"
+      ],
+      "reference_passages": [
+         "Using TLS to Secure QUIC"
+      ],
+      "answer": "QUIC is secured using the Transport Layer Security (TLS) protocol, specifically TLS version 1.3, which provides confidentiality, integrity, and authentication for QUIC connections."
+   },
+   {
+      "id": "q005",
+      "question": "How is the initial secret derived?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9001.pdf"
+      ],
+      "reference_passages": [
+         "initial_secret = HKDF-Extract(initial_salt, cid)"
+      ],
+      "answer": "The initial secret is derived using the HMAC-based Extract-and-Expand Key Derivation Function (HKDF). Specifically, it is computed by passing an initial salt and the client's destination connection ID (cid) into the HKDF-Extract function: initial_secret = HKDF-Extract(initial_salt, cid)."
+   },
+   {
+      "id": "q012",
+      "question": "What happens in the IPv6-only phase?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9099.pdf"
+      ],
+      "reference_passages": [
+         "No IPv4 address is configured for network management or anything else."
+      ],
+      "answer": "In the IPv6-only phase of a network transition, the network operates entirely without IPv4. No IPv4 address is configured for network management, routing, or any other functional purpose."
+   },
+   {
+      "id": "q014",
+      "question": "What does HTTP status 414 mean?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9110.pdf"
+      ],
+      "reference_passages": [
+         "414 URI Too Long"
+      ],
+      "answer": "HTTP status code 414 means 'URI Too Long'. It indicates that the server is refusing to service the request because the request-target (usually the URL) is longer than the server is willing or able to process."
+   },
+   {
+      "id": "q015",
+      "question": "What are strong validators ideal for?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9110.pdf"
+      ],
+      "reference_passages": [
+         "Strong validators are ideal for comparisons"
+      ],
+      "answer": "Strong validators in HTTP are ideal for exact comparisons, particularly for conditional requests where strict revision control or exact byte-for-byte identity of the representation data is required."
+   },
+   {
+      "id": "q018",
+      "question": "What is status code 502?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9112.pdf"
+      ],
+      "reference_passages": [
+         "502 Bad Gateway"
+      ],
+      "answer": "Status code 502 indicates a 'Bad Gateway'. It means that a server acting as a gateway or proxy received an invalid response from an inbound server while attempting to fulfill the request."
+   },
+   {
+      "id": "q026",
+      "question": "What is the message type for Candidate RP Advertisement?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9128.pdf"
+      ],
+      "reference_passages": [
+         "Candidate RP Advertisement messages, with the message Type of 8"
+      ],
+      "answer": "In the PIM protocol, Candidate RP (Rendezvous Point) Advertisement messages are identified by the message Type 8."
+   },
+   {
+      "id": "q028",
+      "question": "What does the compare operation do?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9144.pdf"
+      ],
+      "reference_passages": [
+         "compare management datastores that comply with the Network Management Datastore Architecture"
+      ],
+      "answer": "The compare operation is used to compare two management datastores that comply with the Network Management Datastore Architecture (NMDA) to accurately identify and report the differences between them."
+   },
+   {
+      "id": "q029",
+      "question": "Is the compare operation computationally cheap?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9144.pdf"
+      ],
+      "reference_passages": [
+         "The compare operation can be computationally expensive."
+      ],
+      "answer": "No, the compare operation can be computationally expensive. Implementations should be cautious because excessive invocation of this operation will burden system resources."
+   },
+   {
+      "id": "q030",
+      "question": "What HTTP status code is used for success?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9144.pdf"
+      ],
+      "reference_passages": [
+         "HTTP/1.1 200 OK"
+      ],
+      "answer": "For a successful operation, the 'HTTP/1.1 200 OK' status code is typically used."
+   },
+   {
+      "id": "q032",
+      "question": "What alert is used for too many CIDs?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9147.pdf"
+      ],
+      "reference_passages": [
+         "terminating the connection using a too_many_cids_requested (alert number 52) alert."
+      ],
+      "answer": "If an endpoint requests too many Connection IDs (CIDs), the connection is forcibly terminated using the `too_many_cids_requested` alert, which corresponds to alert number 52."
+   },
+   {
+      "id": "q036",
+      "question": "Who is the first author of RFC 9190?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9190.pdf"
+      ],
+      "reference_passages": [
+         "J. Preuss Mattsson Ericsson"
+      ],
+      "answer": "The first author of RFC 9190 is J. Preuss Mattsson (John Preuß Mattsson), affiliated with Ericsson."
+   },
+   {
+      "id": "q054",
+      "question": "What is DOQ_PROTOCOL_ERROR?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9250.pdf"
+      ],
+      "reference_passages": [
+         "The DoQ implementation encountered a protocol error and is forcibly aborting the connection."
+      ],
+      "answer": "DOQ_PROTOCOL_ERROR is a specific error code used in DNS over Dedicated QUIC (DoQ). It indicates that the DoQ implementation has encountered a protocol error and is forcibly aborting the connection."
+   },
+   {
+      "id": "q055",
+      "question": "What does EVPN stand for?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9252.pdf"
+      ],
+      "reference_passages": [
+         "Ethernet VPN"
+      ],
+      "answer": "EVPN stands for Ethernet Virtual Private Network (or Ethernet VPN)."
+   },
+   {
+      "id": "q065",
+      "question": "What is the upper limit of NSEC3 iterations recommended?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9276.pdf"
+      ],
+      "reference_passages": [
+         "setting an upper limit of 100 iterations"
+      ],
+      "answer": "It is recommended to set an upper limit of 100 NSEC3 iterations to mitigate the risks of excessive CPU consumption and defend against GPU-based hash breaking attacks."
+   },
+   {
+      "id": "q070",
+      "question": "What does TCB mean?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "Transmission control block, the data structure that records the state of a connection."
+      ],
+      "answer": "TCB stands for Transmission Control Block. It is the core data structure in TCP that records the state of a specific connection, tracking information like sequence numbers, buffers, and connection variables."
+   },
+   {
+      "id": "q072",
+      "question": "What does TCP stand for?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "Transmission Control Protocol (TCP)"
+      ],
+      "answer": "TCP stands for Transmission Control Protocol."
+   },
+   {
+      "id": "q076",
+      "question": "What does CTA-2066 specify?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9317.pdf"
+      ],
+      "reference_passages": [
+         "Streaming Quality of Experience Events, Properties and Metrics"
+      ],
+      "answer": "CTA-2066 specifies the 'Streaming Quality of Experience Events, Properties and Metrics' for evaluating media streaming performance."
+   },
+   {
+      "id": "q078",
+      "question": "What does ISOBMFF stand for?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9317.pdf"
+      ],
+      "reference_passages": [
+         "ISO base media file format"
+      ],
+      "answer": "ISOBMFF stands for ISO Base Media File Format."
+   },
+   {
+      "id": "q082",
+      "question": "What is the goal of L4S?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9330.pdf"
+      ],
+      "reference_passages": [
+         "The L4S architecture aims to provide low latency without the need for per-flow operations"
+      ],
+      "answer": "The goal of the L4S architecture is to provide extremely low latency, low loss, and scalable throughput for Internet traffic without requiring complex per-flow operations inside network components."
+   },
+   {
+      "id": "q084",
+      "question": "What is CUBIC designed for?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9330.pdf"
+      ],
+      "reference_passages": [
+         "CUBIC for Fast Long-Distance Networks"
+      ],
+      "answer": "CUBIC is a TCP congestion control algorithm specifically designed to provide high scalability and stability over fast and long-distance networks."
+   },
+   {
+      "id": "q087",
+      "question": "What is the role of an L4S network node?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9331.pdf"
+      ],
+      "reference_passages": [
+         "distinguish and isolate existing traffic that still follows the Classic behaviour"
+      ],
+      "answer": "The primary role of an L4S network node is to distinguish and isolate existing Classic behavior traffic from L4S traffic, allowing both to co-exist securely while guaranteeing ultra-low latency to the L4S packets."
+   },
+   {
+      "id": "q090",
+      "question": "What is the typical RTT used for default DualQ operation?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "RTT_typ is taken as 25 ms."
+      ],
+      "answer": "For the default operation of the DualQ Coupled AQM, the typical round-trip time (RTT_typ) is estimated to be 25 milliseconds."
+   },
+   {
+      "id": "q092",
+      "question": "Can a client send 0-RTT using the negotiated version?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9369.pdf"
+      ],
+      "reference_passages": [
+         "The client MUST NOT send 0-RTT packets using the negotiated version"
+      ],
+      "answer": "No, according to the QUIC version negotiation rules, a client MUST NOT send 0-RTT packets using the newly negotiated version."
+   },
+   {
+      "id": "q095",
+      "question": "What percentage of enterprises use dual-stack?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9386.pdf"
+      ],
+      "reference_passages": [
+         "Most equipment is dual-stacked 31.48%"
+      ],
+      "answer": "According to deployment analytics, approximately 31.48% of enterprise equipment operates on a dual-stack configuration (supporting both IPv4 and IPv6)."
+   },
+   {
+      "id": "q103",
+      "question": "What is JSEP?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "JavaScript Session Establishment Protocol"
+      ],
+      "answer": "JSEP stands for JavaScript Session Establishment Protocol. It provides a mechanism allowing a JavaScript application to fully control the signaling plane of a multimedia session via the RTCPeerConnection API."
+   },
+   {
+      "id": "q107",
+      "question": "What version must the schema be in RFC 9432?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9432.pdf"
+      ],
+      "reference_passages": [
+         "the value of the version.$CATZ TXT RR MUST be set to 2"
+      ],
+      "answer": "In RFC 9432 (DNS Catalog Zones), the value of the `version.$CATZ` TXT RR MUST be set to exactly '2' to correctly define the schema version."
+   },
+   {
+      "id": "q108",
+      "question": "What RR type is used for member zones in catalog zones?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9432.pdf"
+      ],
+      "reference_passages": [
+         "The names of member zones are represented on the RDATA side of a PTR record"
+      ],
+      "answer": "In catalog zones, the names of member zones are structurally represented on the RDATA side of a PTR (Pointer) resource record."
+   },
+   {
+      "id": "q112",
+      "question": "What is the STUN overhead?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9443.pdf"
+      ],
+      "reference_passages": [
+         "standard 36-byte STUN overhead"
+      ],
+      "answer": "The standard STUN protocol overhead applied to messages is 36 bytes."
+   },
+   {
+      "id": "q114",
+      "question": "Who is the first author of RFC 9443?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9443.pdf"
+      ],
+      "reference_passages": [
+         "B. Aboba"
+      ],
+      "answer": "The first author of RFC 9443 is B. Aboba (Bernard Aboba)."
+   },
+   {
+      "id": "q117",
+      "question": "What is a negative response in DNS?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9499.pdf"
+      ],
+      "reference_passages": [
+         "A response that indicates that a particular RRset does not exist"
+      ],
+      "answer": "In DNS terminology, a negative response is a server reply indicating that a particular RRset does not exist, or a response containing an RCODE that signals the nameserver's inability to answer the query."
+   },
+   {
+      "id": "q118",
+      "question": "What does QNAME mean?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9499.pdf"
+      ],
+      "reference_passages": [
+         "query name"
+      ],
+      "answer": "QNAME stands for 'query name'. It refers to the specific domain name field placed in the Question section of a DNS query."
+   },
+   {
+      "id": "q121",
+      "question": "How do QUIC address validation and DTLS 1.3 excessive CIDs handle abuse?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9000.pdf",
+         "rfc9147.pdf"
+      ],
+      "reference_passages": [
+         "Address validation ensures that an endpoint cannot be used for a traffic amplification attack.",
+         "terminating the connection using a too_many_cids_requested (alert number 52) alert."
+      ],
+      "answer": "QUIC utilizes address validation to ensure that an endpoint cannot be abused for traffic amplification attacks. Meanwhile, DTLS 1.3 handles abuse from excessive Connection IDs by abruptly terminating the connection and sending a `too_many_cids_requested` (alert 52) alert."
+   },
+   {
+      "id": "q126",
+      "question": "What defines the default namespace in IOAM vs PIM?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9197.pdf",
+         "rfc9128.pdf"
+      ],
+      "reference_passages": [
+         "0x0000: default namespace",
+         "namespace urn:ietf:params:xml:ns:yang:ietf-pim-base"
+      ],
+      "answer": "In the IOAM protocol, the default namespace is formally defined by the hexadecimal value `0x0000`. Conversely, the PIM YANG model identifies its core namespace with the string `urn:ietf:params:xml:ns:yang:ietf-pim-base`."
+   },
+   {
+      "id": "q131",
+      "question": "How do NSEC3 iterations compare to DNS Catalog zones versioning?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9276.pdf",
+         "rfc9432.pdf"
+      ],
+      "reference_passages": [
+         "setting an upper limit of 100 iterations",
+         "the value of the version.$CATZ TXT RR MUST be set to 2"
+      ],
+      "answer": "NSEC3 processing recommends enforcing an upper limit of 100 iterations to prevent resource exhaustion attacks. DNS Catalog Zones enforce version control strictly by requiring the value of the `version.$CATZ` TXT RR to be set exactly to '2'."
+   },
+   {
+      "id": "q132",
+      "question": "How are DATA frames handled in QUIC vs HTTP/2?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9221.pdf",
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "DATAGRAM frames do not provide any explicit flow control signaling",
+         "DATA frames are subject to flow control"
+      ],
+      "answer": "In QUIC, DATAGRAM frames are handled unreliably and do not provide any explicit flow control signaling. In contrast, HTTP/2 DATA frames transport structured payload and are strictly subject to flow control constraints."
+   },
+   {
+      "id": "q133",
+      "question": "How does MASQUE differ from DoQ?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9298.pdf",
+         "rfc9250.pdf"
+      ],
+      "reference_passages": [
+         "HTTP Extended CONNECT",
+         "DNS over Dedicated QUIC"
+      ],
+      "answer": "MASQUE is designed to proxy UDP payloads over HTTP by utilizing the HTTP Extended CONNECT mechanism. DoQ, on the other hand, provides DNS queries directly over a Dedicated QUIC connection, operating without an intermediary HTTP layer."
+   },
+   {
+      "id": "q134",
+      "question": "How do L4S ECN and DualQ AQM interact?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9331.pdf",
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "experimental alternative to the Classic ECN treatment",
+         "framework for coupling the Active Queue Management (AQM) algorithms in two queues"
+      ],
+      "answer": "L4S ECN provides an experimental alternative to the Classic ECN treatment. The DualQ AQM interacts with it by providing a framework that couples Active Queue Management (AQM) algorithms across two separate queues, seamlessly handling both L4S and Classic traffic."
+   },
+   {
+      "id": "q136",
+      "question": "How does QUIC address confidentiality compared to TLS/DTLS recommendations?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9001.pdf",
+         "rfc9325.pdf"
+      ],
+      "reference_passages": [
+         "confidentiality and integrity limits of 2^26.5 packets.",
+         "Prohibiting RC4 Cipher Suites"
+      ],
+      "answer": "QUIC actively enforces confidentiality and integrity by requiring cryptographic key updates before sending 2^26.5 packets on a connection. Meanwhile, the TLS/DTLS Best Current Practices ensure basic confidentiality by strictly prohibiting the use of outdated algorithms like RC4 Cipher Suites."
+   },
+   {
+      "id": "q140",
+      "question": "How does PIM YANG model IGMP compared to EVPN proxying?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9128.pdf",
+         "rfc9252.pdf"
+      ],
+      "reference_passages": [
+         "This model does not cover other multicast protocols such as IGMP/MLD",
+         "Ethernet VPN"
+      ],
+      "answer": "The PIM YANG model explicitly does not cover other multicast protocols such as IGMP or MLD. Conversely, Ethernet VPN (EVPN) solutions incorporate advanced multicast handling, effectively utilizing IGMP and MLD proxying capabilities within their overlays."
+   },
+   {
+      "id": "q141",
+      "question": "How does the NMDA compare operation status differ from JSEP rollback?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9144.pdf",
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "The compare operation can be computationally expensive.",
+         "rollback is a special session description type indicating that the state machine MUST be rolled back"
+      ],
+      "answer": "The NMDA compare operation checks datastores for differences and can be computationally expensive to execute. JSEP rollback is fundamentally different: it is a special session description type designed to roll the JavaScript session state machine back to a previous 'stable' state."
+   },
+   {
+      "id": "q148",
+      "question": "How does SCTP handle address resolution versus JSEP?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9260.pdf",
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "5 Unresolvable Address",
+         "JavaScript Session Establishment Protocol"
+      ],
+      "answer": "SCTP detects and handles address resolution failures directly at the transport layer using a specific 'Unresolvable Address' error chunk (cause code 5). JSEP (JavaScript Session Establishment Protocol) operates at the application signaling plane and does not handle network address resolution natively in the same way."
+   },
+   {
+      "id": "q154",
+      "question": "How does QUICv2 0-RTT handling compare to QUIC address validation?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9369.pdf",
+         "rfc9000.pdf"
+      ],
+      "reference_passages": [
+         "The client MUST NOT send 0-RTT packets using the negotiated version",
+         "Address validation ensures that an endpoint cannot be used for a traffic amplification attack."
+      ],
+      "answer": "QUICv2 dictates that a client MUST NOT send 0-RTT packets using the newly negotiated version. On the other hand, QUIC address validation is a mandatory security feature ensuring that an endpoint cannot be abused to launch a traffic amplification attack."
+   },
+   {
+      "id": "q156",
+      "question": "How does TCP Congestion Control in RFC 5681 apply to both CUBIC and HyStart++?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9406.pdf",
+         "rfc9438.pdf"
+      ],
+      "reference_passages": [
+         "TCP Congestion Control",
+         "inherits the general security concerns described in [RFC5681]."
+      ],
+      "answer": "Both HyStart++ and CUBIC are algorithmic improvements made over standard TCP Congestion Control. As such, both explicitly inherit the baseline behaviors and the general security concerns originally described in RFC 5681."
+   },
+   {
+      "id": "q164",
+      "question": "How does BGP Route leaks mitigation compare to EVPN RFC 7432?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9234.pdf",
+         "rfc9252.pdf"
+      ],
+      "reference_passages": [
+         "result of misconfigured or absent BGP route filtering",
+         "BGP MPLS-Based Ethernet VPN RFC 7432"
+      ],
+      "answer": "BGP Route Leaks are predominantly the result of misconfigured or completely absent BGP route filtering. EVPN is based on BGP MPLS-Based Ethernet VPNs (RFC 7432) and inherently relies on proper BGP signaling and filtering mechanisms to prevent misrouting across MAC-VRFs."
+   },
+   {
+      "id": "q165",
+      "question": "How does HKDF in TLS 1.3 compare to QUIC packet spaces?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9258.pdf",
+         "rfc9002.pdf"
+      ],
+      "reference_passages": [
+         "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)",
+         "QUIC uses separate packet number spaces for each encryption level"
+      ],
+      "answer": "In TLS 1.3, cryptographic key material is generated using the HMAC-based Extract-and-Expand Key Derivation Function (HKDF). QUIC uses these derived keys but structurally organizes its transmission by maintaining completely separate packet number spaces for each encryption level."
+   },
+   {
+      "id": "q166",
+      "question": "How does SCTP Unresolvable Address compare to DNS FORMERR?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9260.pdf",
+         "rfc9499.pdf"
+      ],
+      "reference_passages": [
+         "5 Unresolvable Address",
+         "Format error - The name server was unable to interpret the query"
+      ],
+      "answer": "SCTP signals an inability to reach a peer using the 'Unresolvable Address' error (cause code 5). Conversely, in DNS, a FORMERR (Format Error) indicates that the name server was entirely unable to interpret the malformed query it received."
+   },
+   {
+      "id": "q169",
+      "question": "How does Media Streaming ISOBMFF compare to QUIC DATAGRAM?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9317.pdf",
+         "rfc9221.pdf"
+      ],
+      "reference_passages": [
+         "ISO base media file format",
+         "DATAGRAM frames do not provide any explicit flow control signaling"
+      ],
+      "answer": "ISOBMFF is the ISO base media file format, offering a highly structured layout optimized for continuous media streaming. In contrast, QUIC DATAGRAM frames provide an unreliable message transport mechanism that purposefully does not provide any explicit flow control signaling."
+   },
+   {
+      "id": "q175",
+      "question": "How does SAIN subservice health score compare to DNS NXRRSET?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9418.pdf",
+         "rfc9499.pdf"
+      ],
+      "reference_passages": [
+         "The special value -1 means that the health score could not be computed.",
+         "NXRRSET is a specific error code"
+      ],
+      "answer": "In the SAIN telemetry model, the special value '-1' signifies that the health score of a subservice could not be computed. In DNS, NXRRSET is a specific protocol error code denoting that the queried resource record set does not exist."
+   },
+   {
+      "id": "q178",
+      "question": "How does DNS REFUSED compare to HTTP 414 status?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9499.pdf",
+         "rfc9110.pdf"
+      ],
+      "reference_passages": [
+         "The name server refuses to perform the specified operation for policy reasons.",
+         "414 URI Too Long"
+      ],
+      "answer": "DNS REFUSED is an RCODE indicating that the name server refuses to perform the requested operation primarily due to policy reasons. The HTTP 414 status is entirely different; it means 'URI Too Long', representing a rejection because the request-target is excessively large."
+   },
+   {
+      "id": "q179",
+      "question": "How does QUIC address validation compare to HTTP/2 DATA frames?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9000.pdf",
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "Address validation ensures that an endpoint cannot be used for a traffic amplification attack.",
+         "DATA frames are subject to flow control"
+      ],
+      "answer": "QUIC uses address validation primarily as a security measure to ensure an endpoint cannot be abused for a traffic amplification attack. In HTTP/2, DATA frames are simply the carriers of the payload and are strictly subject to flow control rules."
+   },
+   {
+      "id": "q189",
+      "question": "How do Route Leaks mitigation compare to SCTP ABORT chunk?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9234.pdf",
+         "rfc9260.pdf"
+      ],
+      "reference_passages": [
+         "result of misconfigured or absent BGP route filtering",
+         "Abort Association (ABORT) (6)"
+      ],
+      "answer": "Route leaks in BGP are typically mitigated by ensuring proper and well-configured BGP route filtering across domains. SCTP handles fatal errors abruptly by sending an Abort Association (ABORT) chunk (type 6) to immediately dismantle the connection."
+   },
+   {
+      "id": "q196",
+      "question": "How does TURN STUN overhead compare to DoQ Message ID?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9443.pdf",
+         "rfc9250.pdf"
+      ],
+      "reference_passages": [
+         "standard 36-byte STUN overhead",
+         "the DNS Message ID MUST be set to 0."
+      ],
+      "answer": "In TURN mechanisms, packets incur a standard 36-byte STUN overhead. In DNS over Dedicated QUIC (DoQ), the protocol rules mandate that the traditional DNS Message ID MUST be strictly set to 0 to avoid redundancy."
+   },
+   {
+      "id": "q198",
+      "question": "How does HTTP status 414 compare to HTTP/2 DATA frames?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9110.pdf",
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "414 URI Too Long",
+         "DATA frames are subject to flow control"
+      ],
+      "answer": "HTTP status code 414 specifies a 'URI Too Long' error, meaning the server cannot process the requested URI size. HTTP/2 DATA frames are the physical units transporting payload over the connection and are strictly subject to flow control constraints."
+   },
+   {
+      "id": "q210",
+      "question": "How does HKDF in TLS 1.3 compare to QUICv2 codepoint?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9258.pdf",
+         "rfc9369.pdf"
+      ],
+      "reference_passages": [
+         "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)",
+         "0x709a50c4"
+      ],
+      "answer": "TLS 1.3 implements the robust HMAC-based Extract-and-Expand Key Derivation Function (HKDF) to establish cryptographic keying material. QUICv2 utilizes these keys but identifies its protocol iteration using a specific version codepoint, such as `0x709a50c4`."
+   },
+   {
+      "id": "q214",
+      "question": "How does RC4 prohibition compare to DualQ AQM default config?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9325.pdf",
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "Prohibiting RC4 Cipher Suites",
+         "By default, a DualQ Coupled AQM SHOULD NOT need any configuration"
+      ],
+      "answer": "To enforce modern security, RFC 9325 strictly commands prohibiting outdated algorithms like RC4 Cipher Suites. Conversely, RFC 9332 focuses on plug-and-play network efficiency, dictating that a DualQ Coupled AQM SHOULD NOT need any configuration by default."
+   },
+   {
+      "id": "q218",
+      "question": "How does HTTP/2 INADEQUATE_SECURITY compare to QUIC address validation?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9113.pdf",
+         "rfc9000.pdf"
+      ],
+      "reference_passages": [
+         "INADEQUATE_SECURITY (0x0c)",
+         "Address validation ensures that an endpoint cannot be used for a traffic amplification attack."
+      ],
+      "answer": "HTTP/2 handles TLS-related shortcomings by firing an INADEQUATE_SECURITY (0x0c) connection error. QUIC's address validation is an active security handshake that ensures an endpoint cannot be abused as a reflector for a traffic amplification attack."
+   },
+   {
+      "id": "q221",
+      "question": "How does EAP-TLS 1.3 first author compare to RFC 9406 first author?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9190.pdf",
+         "rfc9406.pdf"
+      ],
+      "reference_passages": [
+         "J. Preuss Mattsson Ericsson",
+         "P. Balasubramanian"
+      ],
+      "answer": "The first author of RFC 9190 (EAP-TLS 1.3) is J. Preuss Mattsson, affiliated with Ericsson. The first author of RFC 9406 (HyStart++) is P. Balasubramanian."
+   },
+   {
+      "id": "q224",
+      "question": "How does DNS over TCP RFC 8482 compare to DNS Catalog zones PTR?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9210.pdf",
+         "rfc9432.pdf"
+      ],
+      "reference_passages": [
+         "Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY",
+         "The names of member zones are represented on the RDATA side of a PTR record"
+      ],
+      "answer": "RFC 8482 solves amplification issues by providing minimal-sized responses to DNS queries that have QTYPE=ANY. DNS Catalog Zones utilize a specialized domain structure where the names of the member zones are exclusively represented on the RDATA side of a PTR record."
+   },
+   {
+      "id": "q229",
+      "question": "How does TCP CLOSE response compare to HTTP/3 PUSH_PROMISE?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9293.pdf",
+         "rfc9114.pdf"
+      ],
+      "reference_passages": [
+         "Respond with error: connection closing.",
+         "The PUSH_PROMISE frame (type=0x05) is used to carry a promised request"
+      ],
+      "answer": "In TCP, a request over an already closing connection will respond with the error: 'connection closing'. HTTP/3 utilizes the specific PUSH_PROMISE frame (type=0x05) to asynchronously carry a promised request header block, anticipating future client needs."
+   },
+   {
+      "id": "q232",
+      "question": "How does L4S DCTCP compare to DualQ Coupled AQM default config?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9330.pdf",
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "Data Center TCP",
+         "By default, a DualQ Coupled AQM SHOULD NOT need any configuration"
+      ],
+      "answer": "The L4S architecture heavily relies on Data Center TCP (DCTCP) and similar scalable congestion algorithms. The accompanying DualQ Coupled AQM router nodes are designed so that, by default, they SHOULD NOT need any manual configuration to efficiently handle this traffic."
+   },
+   {
+      "id": "q234",
+      "question": "How does IPv6 dual-stack equipment compare to IPv6 discard prefix?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9386.pdf",
+         "rfc9099.pdf"
+      ],
+      "reference_passages": [
+         "Most equipment is dual-stacked 31.48%",
+         "IANA has allocated the 100::/64 prefix to be used as the discard prefix."
+      ],
+      "answer": "Analytics show that most enterprise equipment is dual-stacked (about 31.48%). In the IPv6 addressing scheme, IANA has specifically allocated the `100::/64` prefix to be used exclusively as the discard prefix to drop unroutable traffic."
+   },
+   {
+      "id": "q237",
+      "question": "How does JSEP bundle policy compare to NMDA computation?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9429.pdf",
+         "rfc9144.pdf"
+      ],
+      "reference_passages": [
+         "the default bundle policy MUST be set to balanced.",
+         "The compare operation can be computationally expensive."
+      ],
+      "answer": "In JSEP, the default media multiplexing bundle policy MUST be set to 'balanced' to provide maximum compatibility. Conversely, the NMDA datastore compare operation is an algorithmic diff calculation that can be computationally expensive for a system."
+   },
+   {
+      "id": "q238",
+      "question": "How does Catalog zone schema version compare to DoQ DOQ_PROTOCOL_ERROR?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9432.pdf",
+         "rfc9250.pdf"
+      ],
+      "reference_passages": [
+         "the value of the version.$CATZ TXT RR MUST be set to 2",
+         "The DoQ implementation encountered a protocol error and is forcibly aborting the connection."
+      ],
+      "answer": "To ensure correct Catalog zone processing, the value of the `version.$CATZ` TXT RR MUST be strictly set to 2. In DoQ, a DOQ_PROTOCOL_ERROR is emitted when the implementation encounters a fatal protocol error and forcibly aborts the QUIC connection."
+   },
+   {
+      "id": "q243",
+      "question": "Which DNS resolver software currently holds the largest global deployment share as of 2025?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q245",
+      "question": "Who were the primary code reviewers for the original Linux implementation of TCP CUBIC?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q246",
+      "question": "What specific BGP attributes does the undocumented Cisco proprietary extension use for route leak prevention?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q253",
+      "question": "How many DNS over QUIC requests are processed daily by Google Public DNS?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q255",
+      "question": "What is the specific memory overhead of the PIM YANG model in Cisco IOS XR?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q259",
+      "question": "How many IoT devices natively support DTLS 1.3 globally?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q264",
+      "question": "How many BGP route leaks occurred in the year 2024 globally?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q276",
+      "question": "Does the PIM YANG model work seamlessly with Kubernetes?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q277",
+      "question": "What is the primary programming language used to implement the L2VPN network YANG model?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q280",
+      "question": "Does DNS over TCP consume more electricity than DNS over UDP?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q281",
+      "question": "What is the global adoption rate of EAP-TLS 1.3 in enterprise networks?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q283",
+      "question": "What is the exact sequence of bytes for an unresolvable address in an SCTP packet capture?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q286",
+      "question": "What is the exact percentage of HTTP/2 requests that are malformed on the internet?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q288",
+      "question": "What is the maximum number of streams a DoQ server can handle per second?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q294",
+      "question": "Can the DNS Catalog Zones schema be extended to support blockchain domains?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q299",
+      "question": "What is the exact date when HTTP/1.1 will be completely deprecated?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q301",
+      "question": "why we need address validation again??",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9000.pdf"
+      ],
+      "reference_passages": [
+         "Address validation ensures that an endpoint cannot be used for a traffic amplification attack."
+      ],
+      "answer": "Address validation is a critical security mechanism in QUIC because it ensures that an endpoint cannot be manipulated or abused by an attacker to execute a traffic amplification attack."
+   },
+   {
+      "id": "q304",
+      "question": "whats the valid range of http status code bros?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9110.pdf"
+      ],
+      "reference_passages": [
+         "All valid status codes are within the range of 100 to 599, inclusive."
+      ],
+      "answer": "According to the HTTP semantics specifications, all valid HTTP status codes fall exclusively within the range of 100 to 599, inclusive."
+   },
+   {
+      "id": "q308",
+      "question": "can i put whitespace between header name and colon???",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9112.pdf"
+      ],
+      "reference_passages": [
+         "No whitespace is allowed between the field name and colon."
+      ],
+      "answer": "No, according to the strict syntax rules of HTTP/1.1, absolutely no whitespace is allowed between the field name and the colon in an HTTP header field line."
+   },
+   {
+      "id": "q310",
+      "question": "do data frames get flow controlled in http2?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "DATA frames are subject to flow control and can only be sent when a stream is in the 'open' or 'half-closed (remote)' state."
+      ],
+      "answer": "Yes, in HTTP/2, DATA frames are strictly subject to flow control. They can only be legally sent over the network when a stream is either in the 'open' or 'half-closed (remote)' state."
+   },
+   {
+      "id": "q315",
+      "question": "wat message id is required for dns queries over quic",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9250.pdf"
+      ],
+      "reference_passages": [
+         "When sending queries over a QUIC connection, the DNS Message ID MUST be set to 0."
+      ],
+      "answer": "When sending DNS queries over a Dedicated QUIC connection (DoQ), the protocol explicitly mandates that the DNS Message ID MUST be set to exactly 0."
+   },
+   {
+      "id": "q317",
+      "question": "what is l4s tryin to achieve?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9330.pdf"
+      ],
+      "reference_passages": [
+         "The L4S architecture aims to provide low latency without the need for per-flow operations in network components."
+      ],
+      "answer": "The primary objective of the L4S architecture is to provide extremely low latency, low loss, and scalable throughput across networks, achieving this without the need for complex, per-flow operations inside network components."
+   },
+   {
+      "id": "q321",
+      "question": "wat does rollback do in jsep state machine",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "rollback is a special session description type indicating that the state machine MUST be rolled back to the previous 'stable' state"
+      ],
+      "answer": "In the JSEP (JavaScript Session Establishment Protocol) API, 'rollback' is a special session description type indicating that the state machine MUST be rolled back to the previous 'stable' state, effectively discarding any unapplied provisional answers or offers."
+   },
+   {
+      "id": "q323",
+      "question": "y did they create sctp protocol originally",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9260.pdf"
+      ],
+      "reference_passages": [
+         "SCTP was originally designed to transport Public Switched Telephone Network (PSTN) signaling messages over IP networks."
+      ],
+      "answer": "SCTP (Stream Control Transmission Protocol) was originally designed to securely and reliably transport Public Switched Telephone Network (PSTN) signaling messages over IP networks."
+   },
+   {
+      "id": "q325",
+      "question": "is nxrrset same as nodata in dns?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9499.pdf"
+      ],
+      "reference_passages": [
+         "The term 'NXRRSET' is sometimes used as a synonym for NODATA. However, this is a mistake, given that NXRRSET is a specific error code defined in [RFC2136]."
+      ],
+      "answer": "No. While the term 'NXRRSET' is sometimes mistakenly used as an informal synonym for NODATA, this is incorrect. NXRRSET is an actual, specific error code formally defined in RFC 2136."
+   },
+   {
+      "id": "q330",
+      "question": "which rfc is obsoleted by rfc 9325?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9325.pdf"
+      ],
+      "reference_passages": [
+         "This document obsoletes RFC 7525."
+      ],
+      "answer": "RFC 9325, which provides updated recommendations for the secure use of TLS and DTLS, officially obsoletes RFC 7525."
+   },
+   {
+      "id": "q331",
+      "question": "What is the purpose of the ietf-system-capabilities module?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9196.pdf"
+      ],
+      "reference_passages": [
+         "The module \"ietf-system-capabilities\" provides a placeholder structure to be used to specify any YANG-related system capability."
+      ],
+      "answer": "The purpose of the 'ietf-system-capabilities' module is to provide a standardized placeholder structure that can be used to discover and specify any YANG-related system capability."
+   },
+   {
+      "id": "q332",
+      "question": "How are capabilities provided at implementation time in RFC 9196?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9196.pdf"
+      ],
+      "reference_passages": [
+         "Capabilities SHOULD be provided by the implementer as YANG instance data files complying with"
+      ],
+      "answer": "At implementation time, capabilities SHOULD be provided by the implementer as YANG instance data files complying with the structure defined in RFC 9195, ensuring they are machine-readable and vendor-independent."
+   },
+   {
+      "id": "q333",
+      "question": "What does L2NM stand for?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9291.pdf"
+      ],
+      "reference_passages": [
+         "L2VPN Network Model (L2NM)"
+      ],
+      "answer": "L2NM stands for Layer 2 Virtual Private Network (L2VPN) Network Model. It provides a network-centric view of an L2VPN service."
+   },
+   {
+      "id": "q334",
+      "question": "Is the L2NM a device model?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9291.pdf"
+      ],
+      "reference_passages": [
+         "The L2NM is not a device model."
+      ],
+      "answer": "No, the L2NM (L2VPN Network Model) is not a device model. It is designed to be used by a network controller to abstract and manage Layer 2 VPN services across a provider's network."
+   },
+   {
+      "id": "q335",
+      "question": "What is the Maximum Segment Lifetime in TCP?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "Maximum Segment Lifetime, the time a TCP segment can exist in the internetwork system. Arbitrarily defined to be 2 minutes."
+      ],
+      "answer": "The Maximum Segment Lifetime (MSL) is the maximum amount of time a TCP segment can exist in the internetwork system before being discarded. It is arbitrarily defined to be 2 minutes."
+   },
+   {
+      "id": "q336",
+      "question": "What happens if a FIN is received in the FIN-WAIT-2 state?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "Enter the TIME-WAIT state. Start the time-wait timer, turn off the other timers."
+      ],
+      "answer": "If a TCP connection receives a FIN while in the FIN-WAIT-2 state, it must enter the TIME-WAIT state, start the time-wait timer, and turn off the other timers to ensure the connection closes gracefully."
+   },
+   {
+      "id": "q337",
+      "question": "What does the ietf-service-assurance module define?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9418.pdf"
+      ],
+      "reference_passages": [
+         "This module defines objects for assuring services based on their decomposition into so-called subservices"
+      ],
+      "answer": "The 'ietf-service-assurance' module defines a set of YANG objects used for assuring network services by decomposing them into smaller, atomic assurance elements called subservices."
+   },
+   {
+      "id": "q338",
+      "question": "What does a health score of 100 mean in service assurance?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9418.pdf"
+      ],
+      "reference_passages": [
+         "A value of 100 means that the subservice is healthy."
+      ],
+      "answer": "In the context of the service assurance YANG model, a health score value of 100 means that the specific subservice being monitored is fully healthy and operating correctly."
+   },
+   {
+      "id": "q339",
+      "question": "What does the JSEP rollback session description type indicate?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "rollback is a special session description type indicating that the state machine MUST be rolled back to the previous \"stable\" state"
+      ],
+      "answer": "In JSEP, the 'rollback' session description type is a special signal indicating that the signaling state machine MUST be reverted to the previous 'stable' state, discarding any unapplied provisional answers."
+   },
+   {
+      "id": "q340",
+      "question": "Can the ICE candidate pool size be changed after applying a local description in JSEP?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "The ICE candidate pool size MUST NOT be changed after applying a local description."
+      ],
+      "answer": "No, according to the JSEP specification, the ICE candidate pool size MUST NOT be changed after a local description has been applied."
+   },
+   {
+      "id": "q341",
+      "question": "What is CUBIC?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9438.pdf"
+      ],
+      "reference_passages": [
+         "CUBIC is a standard TCP congestion control algorithm that uses a cubic function instead of a linear congestion window increase function"
+      ],
+      "answer": "CUBIC is a standard TCP congestion control algorithm that replaces the traditional linear congestion window increase function with a cubic function, improving scalability and stability over fast, long-distance networks."
+   },
+   {
+      "id": "q342",
+      "question": "What first byte value identifies a STUN packet?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9443.pdf"
+      ],
+      "reference_passages": [
+         "If the value of this byte is between 0 and 3 (inclusive), then the packet is STUN."
+      ],
+      "answer": "A packet is identified as a STUN packet if the value of its very first byte is between 0 and 3 (inclusive)."
+   },
+   {
+      "id": "q343",
+      "question": "Is the multiplexing scheme in RFC 9443 compatible with QUIC bit greasing?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9443.pdf"
+      ],
+      "reference_passages": [
+         "While the scheme described in this document is compatible with QUIC version 2 [RFC9369], it is not compatible with QUIC bit greasing"
+      ],
+      "answer": "No, while the multiplexing scheme is compatible with QUIC version 2, it is explicitly not compatible with QUIC bit greasing. Endpoints using this multiplexing MUST NOT send the grease_quic_bit transport parameter."
+   },
+   {
+      "id": "q344",
+      "question": "What replaces ARP in IPv6?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9386.pdf"
+      ],
+      "reference_passages": [
+         "The Neighbor Discovery Protocol (NDP) is a node discovery protocol in IPv6, which replaces and enhances functions of ARP."
+      ],
+      "answer": "In IPv6, the Address Resolution Protocol (ARP) is replaced by the Neighbor Discovery Protocol (NDP), which enhances and extends the original node discovery functions."
+   },
+   {
+      "id": "q345",
+      "question": "What is the primary role of the L4S queue in the DualQ Coupled AQM?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "The L4S queue isolates the sub-millisecond average queuing delay of L4S from Classic latency"
+      ],
+      "answer": "The primary role of the L4S queue in a DualQ Coupled AQM is to isolate the sub-millisecond average queuing delay typical of L4S traffic from the much higher latency generated by Classic traffic."
+   },
+   {
+      "id": "q346",
+      "question": "What are the three main components of the L4S architecture?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9330.pdf"
+      ],
+      "reference_passages": [
+         "1) the Scalable congestion control on the sending host; 2) the AQM at the network bottleneck; and 3) the protocol between them."
+      ],
+      "answer": "The three main components of the L4S architecture are: 1) a Scalable congestion control algorithm on the sending host, 2) an Active Queue Management (AQM) mechanism at the network bottleneck, and 3) the protocol (ECN) communicating between them."
+   },
+   {
+      "id": "q347",
+      "question": "Which codepoint is used as the identifier to classify L4S packets?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9331.pdf"
+      ],
+      "reference_passages": [
+         "specifies that ECT(1) is used as the identifier to classify L4S packets into a separate treatment from Classic packets."
+      ],
+      "answer": "The ECT(1) codepoint in the IP-ECN field is used as the standard identifier to classify L4S packets, separating their treatment from Classic packets."
+   },
+   {
+      "id": "q348",
+      "question": "How many queues does the DualQ Coupled AQM consist of?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "A DualQ Coupled AQM consists of two queues: L4S and Classic."
+      ],
+      "answer": "A DualQ Coupled AQM consists of exactly two queues: one for L4S traffic and one for Classic traffic."
+   },
+   {
+      "id": "q349",
+      "question": "How should a server handle an HTTP/1.1 request with both Content-Length and Transfer-Encoding?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9112.pdf"
+      ],
+      "reference_passages": [
+         "A server MUST reject a request that contains both Content-Length and Transfer-Encoding or process such a request in accordance with the Transfer-Encoding alone."
+      ],
+      "answer": "A server MUST either outright reject an HTTP request containing both a Content-Length and a Transfer-Encoding header field, or safely process the request by entirely ignoring the Content-Length and relying on the Transfer-Encoding rules."
+   },
+   {
+      "id": "q350",
+      "question": "What can an endpoint do if a TLS 1.2 connection does not meet HTTP/2 requirements?",
+      "type": "single_doc",
+      "relevant_documents": [
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "An endpoint MAY immediately terminate an HTTP/2 connection that does not meet these TLS requirements with a connection error of type INADEQUATE_SECURITY."
+      ],
+      "answer": "If an underlying TLS 1.2 connection does not meet the strict security requirements mandated by HTTP/2, an endpoint MAY immediately terminate the connection using a connection error of type INADEQUATE_SECURITY."
+   },
+   {
+      "id": "q351",
+      "question": "How does the L2NM architecture compare to the L4S architecture's goals?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9291.pdf",
+         "rfc9330.pdf"
+      ],
+      "reference_passages": [
+         "The L2NM is particularly meant to be used by a network controller to derive the configuration information that will be sent to relevant network devices.",
+         "The L4S architecture aims to provide low latency without the need for per-flow operations in network components."
+      ],
+      "answer": "The L2NM (L2VPN Network Model) architecture is meant to provide a network-centric approach for controllers to derive and push service configurations to network devices. Conversely, the L4S architecture focuses heavily on the transport layer, aiming to provide ultra-low latency without requiring complex, per-flow operations inside those network components."
+   },
+   {
+      "id": "q352",
+      "question": "How does the CUBIC algorithm compare to L4S Scalable congestion controls?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9438.pdf",
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "CUBIC is a standard TCP congestion control algorithm that uses a cubic function",
+         "The L4S queue is intended for Scalable congestion controls that can maintain very low queuing latency"
+      ],
+      "answer": "CUBIC is a standard TCP congestion control algorithm utilizing a cubic function to scale windows on fast networks, but it operates as a 'Classic' Reno-friendly control. L4S Scalable congestion controls are a completely different family of algorithms designed to maintain consistently very low queuing latency and are handled by a dedicated L4S queue in the network."
+   },
+   {
+      "id": "q353",
+      "question": "How is JSEP ICE version detection handled compared to DTLS 1.3 AEAD limits?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9429.pdf",
+         "rfc9147.pdf"
+      ],
+      "reference_passages": [
+         "The \"ice2\" attribute defined in [RFC8445] can be used to detect the version in use by a remote endpoint",
+         "If the number of packets that fail authentication exceeds a limit that is specific to the AEAD in use, an implementation MUST immediately close the connection."
+      ],
+      "answer": "In JSEP, the ICE protocol version used by a remote endpoint can be detected gracefully using the specific \"ice2\" attribute. In DTLS 1.3, cryptographic boundaries are strictly enforced: if the number of packets failing authentication exceeds the AEAD-specific limit, the implementation MUST immediately close the connection to ensure security."
+   },
+   {
+      "id": "q354",
+      "question": "How do HTTP/1.1 body presence rules compare to HTTP/2 STREAM_CLOSED errors?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9112.pdf",
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "The presence of a message body in a request is signaled by a Content-Length or Transfer-Encoding header field.",
+         "of type STREAM_CLOSED."
+      ],
+      "answer": "In HTTP/1.1, the presence of a message body is explicitly signaled using either the Content-Length or Transfer-Encoding header fields. In HTTP/2, stream states dictate data flow; attempting to use a closed stream for sending frames results in an error of type STREAM_CLOSED."
+   },
+   {
+      "id": "q355",
+      "question": "How do QUIC datagrams differ from TCP Keep-Alives?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9221.pdf",
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "Extending QUIC to support transmitting unreliable application data provides another option for secure datagrams",
+         "A TCP connection is said to be \"idle\" if for some long amount of time there have been no incoming segments received and there is no new or unacknowledged data to be sent."
+      ],
+      "answer": "QUIC datagrams are an extension designed to provide a mechanism for transmitting unreliable, unacknowledged application data over a secure connection. TCP Keep-Alives, on the other hand, are empty or garbage-byte segments sent periodically to probe if an entirely 'idle' connection is still active and reachable."
+   },
+   {
+      "id": "q356",
+      "question": "How is EAP-TLS 1.3 privacy achieved compared to Service Assurance access restrictions?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9190.pdf",
+         "rfc9418.pdf"
+      ],
+      "reference_passages": [
+         "EAP-TLS 1.3 forbids cipher suites without confidentiality, which means that TLS 1.3 is always encrypting large parts of the TLS handshake including the certificate messages.",
+         "The Network Configuration Access Control Model (NACM) [RFC8341] provides the means to restrict access for particular NETCONF or RESTCONF users"
+      ],
+      "answer": "EAP-TLS 1.3 achieves privacy structurally by strictly forbidding cipher suites without confidentiality, ensuring that the entire certificate exchange during the handshake is encrypted. Service Assurance models enforce privacy and security operationally using the Network Configuration Access Control Model (NACM) to selectively restrict NETCONF or RESTCONF user access to sensitive data."
+   },
+   {
+      "id": "q357",
+      "question": "How are BGP L2 Encaps types maintained compared to QUIC DNS Message IDs?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9291.pdf",
+         "rfc9250.pdf"
+      ],
+      "reference_passages": [
+         "The \"iana-bgp-l2-encaps\" YANG module matches the \"BGP Layer 2 Encapsulation Types\" registry",
+         "When sending queries over a QUIC connection, the DNS Message ID MUST be set to 0."
+      ],
+      "answer": "The BGP L2 Encapsulation types are centrally maintained through the 'iana-bgp-l2-encaps' YANG module, which dynamically matches the IANA 'BGP Layer 2 Encapsulation Types' registry. In contrast, QUIC dictates statically that when sending DNS queries over a QUIC connection, the legacy DNS Message ID field MUST always be set to exactly 0."
+   },
+   {
+      "id": "q358",
+      "question": "How does the TURN channel packet identification compare to the HTTP 416 status code?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9443.pdf",
+         "rfc9110.pdf"
+      ],
+      "reference_passages": [
+         "If the value is between 64 and 79 (inclusive), then the packet is TURN Channel.",
+         "416 Range Not Satisfiable"
+      ],
+      "answer": "In multiplexed network environments, a packet is identified as a TURN Channel packet if its first byte falls squarely between 64 and 79 (inclusive). In HTTP semantics, a completely unrelated protocol, the 416 status code indicates a 'Range Not Satisfiable' error for a resource request."
+   },
+   {
+      "id": "q359",
+      "question": "How does TCP SWS avoidance relate to L4S DualQ AQM coupled marking?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9293.pdf",
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "The \"Silly Window Syndrome\" (SWS) is a stable pattern of small incremental window movements resulting in extremely poor TCP performance.",
+         "The AQM couples marking and/or dropping from the Classic queue to the L4S queue in such a way that a flow will get roughly the same throughput whichever it uses."
+      ],
+      "answer": "TCP SWS avoidance involves algorithmic rules on both the sender and receiver side to prevent stable patterns of small, inefficient incremental window movements. L4S DualQ AQM operates inside the network, using a mathematical coupling to probabilistically link marking from the Classic queue to the L4S queue, ensuring flows get roughly the same throughput regardless of which queue they traverse."
+   },
+   {
+      "id": "q360",
+      "question": "How do IPv6 Extension headers compare to TLS 1.2 Renegotiation?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9386.pdf",
+         "rfc9325.pdf"
+      ],
+      "reference_passages": [
+         "IPv6 extension headers provide a hook for interesting new features to be added and are more flexible than IPv4 options.",
+         "Renegotiation in TLS 1.2 is a handshake that establishes new cryptographic parameters for an existing connection."
+      ],
+      "answer": "IPv6 Extension headers provide a structural hook directly in the network layer for new, flexible features to be added to packets. TLS 1.2 Renegotiation is a higher-level cryptographic process that initiates an in-band handshake to establish entirely new cryptographic parameters for a connection that is already active."
+   },
+   {
+      "id": "q361",
+      "question": "How does HTTP/3 PUSH_PROMISE relate to TCP Retransmission Timeout?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9114.pdf",
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "The PUSH_PROMISE frame (type=0x05) is used to carry a promised request",
+         "RETRANSMISSION TIMEOUT"
+      ],
+      "answer": "The HTTP/3 PUSH_PROMISE frame is a proactive optimization used by servers to carry a promised request anticipating the client's needs. The TCP Retransmission Timeout is a reactive recovery mechanism that triggers when sent segments are not acknowledged in time, prompting retransmission."
+   },
+   {
+      "id": "q362",
+      "question": "How does SCTP HEARTBEAT compare to TCP Keep-Alives?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9260.pdf",
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "no HEARTBEAT chunk has been sent to it within the current heartbeat period of that address.",
+         "Keep-alive packets MUST only be sent when no sent data is outstanding, and no data or acknowledgment packets have been received for the connection within an interval"
+      ],
+      "answer": "SCTP actively sends HEARTBEAT chunks to continuously verify the reachability of a specific transport address when no other traffic has been sent to it during the current heartbeat period. TCP Keep-Alives similarly verify connection liveliness, but they MUST only be dispatched when no sent data is outstanding and the connection has remained totally idle for a configurable interval."
+   },
+   {
+      "id": "q363",
+      "question": "How does SCTP multi-homing compare to QUIC path validation?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9260.pdf",
+         "rfc9000.pdf"
+      ],
+      "reference_passages": [
+         "An SCTP endpoint is considered multi-homed if there is more than one transport address that can be used as a destination address",
+         "Once the server has completed its path validation and has received a non-probing packet with a new largest packet number on its preferred address"
+      ],
+      "answer": "SCTP achieves multi-homing natively when an endpoint has more than one configured transport address available as a destination. QUIC handles multi-path operations using an active path validation mechanism, confirming reachability before migrating to a new preferred address to resume traffic."
+   },
+   {
+      "id": "q364",
+      "question": "How does TLS 1.3 0-RTT data compare to QUICv2 0-RTT packets?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9325.pdf",
+         "rfc9369.pdf"
+      ],
+      "reference_passages": [
+         "The 0-RTT early data feature is new in TLS 1.3. It provides reduced latency when TLS connections are resumed",
+         "The client MUST NOT send 0-RTT packets using the negotiated version"
+      ],
+      "answer": "In TLS 1.3, the 0-RTT early data feature explicitly provides reduced latency benefits when resuming a prior TLS connection. However, during QUIC version negotiation, QUICv2 strictly dictates that a client MUST NOT send 0-RTT packets using the newly negotiated version."
+   },
+   {
+      "id": "q365",
+      "question": "How do JSEP bundle policies compare to L2NM MAC policies?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9429.pdf",
+         "rfc9291.pdf"
+      ],
+      "reference_passages": [
+         "The application can specify its preferred policy regarding the use of BUNDLE, the multiplexing mechanism defined in [RFC9143].",
+         "'mac-policies': Lists a set of MAC-related policies such as MAC ACLs."
+      ],
+      "answer": "In JSEP, a bundle policy allows an application to strictly dictate its preferences for multiplexing multiple media streams (BUNDLE) over the same connection. In the L2NM network model, MAC policies configure Layer 2 behaviors, listing sets of operational rules such as MAC ACLs to filter or flood Ethernet traffic."
+   },
+   {
+      "id": "q366",
+      "question": "How does HTTP/1.1 Transfer-Encoding compare to HTTP/2 DATA frames?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9112.pdf",
+         "rfc9113.pdf"
+      ],
+      "reference_passages": [
+         "The Transfer-Encoding header field lists the transfer coding names corresponding to the sequence of transfer codings",
+         "DATA frames are subject to flow control"
+      ],
+      "answer": "HTTP/1.1 frames its message bodies dynamically using the Transfer-Encoding header field, which lists the exact sequence of transfer codings (like 'chunked') applied. HTTP/2 physically encapsulates the payload inside DATA frames, which are fundamentally different and are strictly subject to binary flow control limitations."
+   },
+   {
+      "id": "q367",
+      "question": "How does TCP TIME-WAIT state compare to the SCTP CLOSED state?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9293.pdf",
+         "rfc9260.pdf"
+      ],
+      "reference_passages": [
+         "represents waiting for enough time to pass to be sure the remote TCP peer received the acknowledgment of its connection termination request",
+         "CLOSED is fictional because it represents the state when there is no TCB, and therefore, no connection."
+      ],
+      "answer": "The TCP TIME-WAIT state is an active lingering phase, waiting for enough time to pass (2xMSL) to ensure the remote peer received the final termination acknowledgment and that old segments die. The SCTP CLOSED state is entirely fictional; it simply represents the state when no Transmission Control Block (TCB) exists, meaning there is no connection at all."
+   },
+   {
+      "id": "q368",
+      "question": "How does EAP-TLS 1.3 key derivation compare to the DTLS 1.3 Cryptographic Label?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9190.pdf",
+         "rfc9147.pdf"
+      ],
+      "reference_passages": [
+         "the Key_Material and Method-Id MUST be derived from the exporter_secret using the TLS exporter interface",
+         "that label SHALL be \"dtls13\". This ensures key separation between DTLS 1.3 and TLS 1.3."
+      ],
+      "answer": "EAP-TLS 1.3 generates its keying material (Key_Material and Method-Id) directly by utilizing the standard TLS 1.3 exporter interface. DTLS 1.3 utilizes HKDF-Expand-Label but requires that the cryptographic label prefix strictly be set to \"dtls13\" to guarantee explicit key separation from base TLS 1.3."
+   },
+   {
+      "id": "q369",
+      "question": "How do L4S Scalable congestion controls compare to CUBIC?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9331.pdf",
+         "rfc9438.pdf"
+      ],
+      "reference_passages": [
+         "L4S relies on 'Scalable' congestion controls for these delay properties and for preserving low delay as flow rate scales",
+         "CUBIC is a standard TCP congestion control algorithm that uses a cubic function instead of a linear congestion window increase function"
+      ],
+      "answer": "L4S architectures exclusively rely on new 'Scalable' congestion controls to maintain consistently low delay properties regardless of how the flow rate scales. Conversely, CUBIC is a standard, widely deployed 'Classic' TCP congestion control that relies on a cubic function to adjust window sizes, optimizing throughput over fast and long-distance networks but typically generating more queuing delay."
+   },
+   {
+      "id": "q370",
+      "question": "How does YANG-Push max-nodes-per-update compare to Service Assurance health-score?",
+      "type": "multi_doc",
+      "relevant_documents": [
+         "rfc9196.pdf",
+         "rfc9418.pdf"
+      ],
+      "reference_passages": [
+         "the maximum number of objects that can be sent in an update.",
+         "A value of 100 means that the subservice is healthy. A value of 0 means that the subservice is broken."
+      ],
+      "answer": "In YANG-Push notification capabilities, 'max-nodes-per-update' specifies the maximum volumetric limit of objects that can be bundled into a single update. In the Service Assurance model, the 'health-score' is a specific metric denoting the status of a subservice, where 100 is perfectly healthy and 0 is broken."
+   },
+   {
+      "id": "q371",
+      "question": "How many active EAP-TLS 1.3 sessions exist globally?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q372",
+      "question": "What is the exact source code of the Linux Prague L4S implementation?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q373",
+      "question": "Does RFC 9293 provide C++ code for TCP state machines?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q374",
+      "question": "How much memory does a typical DualQ Coupled AQM consume in Cisco routers?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q375",
+      "question": "Which specific ISP first deployed L2NM in production?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q376",
+      "question": "What is the maximum number of JSEP PeerConnections allowed in Google Chrome 110?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q377",
+      "question": "Can CUBIC be used for interplanetary internet links to Mars?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q378",
+      "question": "What is the default CPU usage of the Service Assurance agent in RFC 9418?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q379",
+      "question": "How many TURN channel packets are dropped daily on the internet?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q380",
+      "question": "Does the IETF mandate the use of quantum cryptography for TLS 1.4?",
+      "type": "unanswerable",
+      "relevant_documents": [],
+      "reference_passages": [],
+      "answer": "I documenti forniti non contengono informazioni sufficienti per rispondere a questa domanda."
+   },
+   {
+      "id": "q381",
+      "question": "what is the max segment lifetime in tcp??",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "Maximum Segment Lifetime, the time a TCP segment can exist in the internetwork system. Arbitrarily defined to be 2 minutes."
+      ],
+      "answer": "The Maximum Segment Lifetime (MSL) in TCP is the time a segment is permitted to exist in the internetwork system, and it is arbitrarily defined to be exactly 2 minutes."
+   },
+   {
+      "id": "q382",
+      "question": "why does l4s use ect(1) and not ect(0) bro?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9331.pdf"
+      ],
+      "reference_passages": [
+         "specifies that ECT(1) is used as the identifier to classify L4S packets into a separate treatment from Classic packets."
+      ],
+      "answer": "L4S specifically utilizes the ECT(1) codepoint as the distinct identifier to accurately classify L4S packets, effectively separating their treatment from Classic packets traversing the same networks."
+   },
+   {
+      "id": "q383",
+      "question": "is cubic only for slow networks??",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9438.pdf"
+      ],
+      "reference_passages": [
+         "improve scalability and stability over fast and long-distance networks"
+      ],
+      "answer": "No, CUBIC is explicitly designed to improve scalability and stability over fast and long-distance networks by using a cubic function rather than a standard linear increase."
+   },
+   {
+      "id": "q384",
+      "question": "what does l2nm mean in rfc 9291",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9291.pdf"
+      ],
+      "reference_passages": [
+         "L2VPN Network Model (L2NM)"
+      ],
+      "answer": "In RFC 9291, L2NM formally stands for the L2VPN Network Model."
+   },
+   {
+      "id": "q385",
+      "question": "can i send both content-length and transfer-encoding in http 1.1 pls?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9112.pdf"
+      ],
+      "reference_passages": [
+         "A server MUST reject a request that contains both Content-Length and Transfer-Encoding or process such a request in accordance with the Transfer-Encoding alone."
+      ],
+      "answer": "If you send both, a compliant HTTP/1.1 server MUST either reject the request entirely or safely process it by strictly adhering to the Transfer-Encoding rules alone, disregarding the Content-Length."
+   },
+   {
+      "id": "q386",
+      "question": "do we need to check certificate revocation in eap-tls 1.3?",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9190.pdf"
+      ],
+      "reference_passages": [
+         "By mandating revocation checking of certificates, the authentication in EAP-TLS with TLS 1.3 is stronger"
+      ],
+      "answer": "Yes, revocation checking is absolutely mandated in EAP-TLS with TLS 1.3, which makes the authentication stronger because connections with revoked certificates will always securely fail."
+   },
+   {
+      "id": "q387",
+      "question": "what happens when a tcp connection gets a rst in established state",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9293.pdf"
+      ],
+      "reference_passages": [
+         "If the RST bit is set, then any outstanding RECEIVEs and SEND should receive \"reset\" responses."
+      ],
+      "answer": "If a TCP connection in the ESTABLISHED state receives a valid RST segment, any outstanding RECEIVEs and SEND operations will immediately be aborted and return 'reset' responses."
+   },
+   {
+      "id": "q388",
+      "question": "whats the exact health score for a broken subservice in yang",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9418.pdf"
+      ],
+      "reference_passages": [
+         "A value of 0 means that the subservice is broken."
+      ],
+      "answer": "In the Service Assurance YANG model, an exact health score value of 0 indicates that the corresponding subservice is completely broken."
+   },
+   {
+      "id": "q389",
+      "question": "does jsep support trickle ice",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9429.pdf"
+      ],
+      "reference_passages": [
+         "the \"trickle\" option as specified in"
+      ],
+      "answer": "Yes, JSEP supports Trickle ICE, which can be enabled and identified via the 'trickle' option parameter in the session description attributes."
+   },
+   {
+      "id": "q390",
+      "question": "how many queues does dualq have",
+      "type": "noisy",
+      "relevant_documents": [
+         "rfc9332.pdf"
+      ],
+      "reference_passages": [
+         "A DualQ Coupled AQM consists of two queues: L4S and Classic."
+      ],
+      "answer": "A DualQ Coupled AQM strictly consists of two distinct queues: one dedicated to L4S traffic and one dedicated to Classic traffic."
+   }
+]

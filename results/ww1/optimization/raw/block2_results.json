@@ -1,0 +1,134 @@
+[
+  {
+    "single_doc": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.8333,
+      "R-Precision@5": 0.9333
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.86,
+      "PassageRecall@5": 0.7467,
+      "R-Precision@5": 0.64
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 0.9333,
+      "PassageRecall@5": 0.6667,
+      "R-Precision@5": 0.4667
+    },
+    "all": {
+      "DocRecall@5": 0.9357,
+      "PassageRecall@5": 0.7667,
+      "R-Precision@5": 0.5667
+    },
+    "qt_type": "none",
+    "avg_latency_sec": 0.196,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0,
+    "errori_api": 0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.8333,
+      "R-Precision@5": 0.9333
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.88,
+      "PassageRecall@5": 0.7533,
+      "R-Precision@5": 0.56
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.6667,
+      "R-Precision@5": 0.4
+    },
+    "all": {
+      "DocRecall@5": 0.9571,
+      "PassageRecall@5": 0.769,
+      "R-Precision@5": 0.5333
+    },
+    "qt_type": "hyde",
+    "avg_latency_sec": 1.969,
+    "avg_input_tokens": 76.7,
+    "avg_output_tokens": 423.5,
+    "avg_tokens_per_query": 500.2,
+    "errori_api": 0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.9667,
+      "PassageRecall@5": 0.8,
+      "R-Precision@5": 0.8333
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.84,
+      "PassageRecall@5": 0.7067,
+      "R-Precision@5": 0.62
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.7333,
+      "R-Precision@5": 0.6
+    },
+    "all": {
+      "DocRecall@5": 0.9286,
+      "PassageRecall@5": 0.7524,
+      "R-Precision@5": 0.55
+    },
+    "qt_type": "multi_query",
+    "avg_latency_sec": 1.267,
+    "avg_input_tokens": 92.7,
+    "avg_output_tokens": 60.4,
+    "avg_tokens_per_query": 153.1,
+    "errori_api": 0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.9667,
+      "PassageRecall@5": 0.8,
+      "R-Precision@5": 0.8333
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.88,
+      "PassageRecall@5": 0.7067,
+      "R-Precision@5": 0.6
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.6667,
+      "R-Precision@5": 0.5333
+    },
+    "all": {
+      "DocRecall@5": 0.9429,
+      "PassageRecall@5": 0.7381,
+      "R-Precision@5": 0.5333
+    },
+    "qt_type": "rag_fusion",
+    "avg_latency_sec": 1.524,
+    "avg_input_tokens": 92.7,
+    "avg_output_tokens": 78.5,
+    "avg_tokens_per_query": 171.2,
+    "errori_api": 0
+  }
+]

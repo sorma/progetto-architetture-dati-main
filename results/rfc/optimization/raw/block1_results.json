@@ -1,0 +1,268 @@
+[
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7188,
+      "PassageRecall@5": 0.7188,
+      "R-Precision@5": 0.5625
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.5938,
+      "PassageRecall@5": 0.7031,
+      "R-Precision@5": 0.7656
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 0.9,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 0.9
+    },
+    "all": {
+      "DocRecall@5": 0.6892,
+      "PassageRecall@5": 0.7365,
+      "R-Precision@5": 0.5722
+    },
+    "embed_time_sec": 17.7,
+    "chunk_time_sec": 12.2,
+    "avg_retrieval_sec": 0.171,
+    "config": {
+      "id": 1,
+      "splitter": "token",
+      "chunk_size": 200,
+      "overlap": 32,
+      "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "note": "Micro-Chunk (Token) - Baseline super leggera e veloce, ideale per risposte factual puntuali."
+    }
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7188,
+      "PassageRecall@5": 0.7812,
+      "R-Precision@5": 0.5938
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.5625,
+      "PassageRecall@5": 0.5938,
+      "R-Precision@5": 0.75
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 0.9,
+      "PassageRecall@5": 1.0,
+      "R-Precision@5": 0.7
+    },
+    "all": {
+      "DocRecall@5": 0.6757,
+      "PassageRecall@5": 0.7297,
+      "R-Precision@5": 0.5556
+    },
+    "embed_time_sec": 20.9,
+    "chunk_time_sec": 3.5,
+    "avg_retrieval_sec": 0.225,
+    "config": {
+      "id": 2,
+      "splitter": "sentence",
+      "chunk_size": 150,
+      "overlap": 25,
+      "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "note": "Micro-Chunk (Sentence) - Isola l'effetto dello splitter sul modello leggero (~150 parole o frasi generano ~200 token)."
+    }
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.6875,
+      "PassageRecall@5": 0.875,
+      "R-Precision@5": 0.625
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.625,
+      "PassageRecall@5": 0.75,
+      "R-Precision@5": 0.625
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.8,
+      "R-Precision@5": 0.9
+    },
+    "all": {
+      "DocRecall@5": 0.7027,
+      "PassageRecall@5": 0.8108,
+      "R-Precision@5": 0.5444
+    },
+    "embed_time_sec": 70.3,
+    "chunk_time_sec": 11.8,
+    "avg_retrieval_sec": 0.277,
+    "config": {
+      "id": 3,
+      "splitter": "token",
+      "chunk_size": 256,
+      "overlap": 32,
+      "embed_model": "BAAI/bge-base-en-v1.5",
+      "note": "Small-Chunk (Token) - Ottimizza BGE Base su contesti stretti, riducendo al minimo il rumore di fondo."
+    }
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7812,
+      "PassageRecall@5": 0.875,
+      "R-Precision@5": 0.5312
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.6562,
+      "PassageRecall@5": 0.9062,
+      "R-Precision@5": 0.75
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 1.0,
+      "R-Precision@5": 0.8
+    },
+    "all": {
+      "DocRecall@5": 0.7568,
+      "PassageRecall@5": 0.9054,
+      "R-Precision@5": 0.5444
+    },
+    "embed_time_sec": 270.0,
+    "chunk_time_sec": 11.7,
+    "avg_retrieval_sec": 0.162,
+    "config": {
+      "id": 4,
+      "splitter": "token",
+      "chunk_size": 500,
+      "overlap": 50,
+      "embed_model": "BAAI/bge-base-en-v1.5",
+      "note": "Medium-Chunk (Token) - Configurazione standard bilanciata. Sfrutta quasi tutta la finestra del modello (512)."
+    }
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7812,
+      "PassageRecall@5": 0.9375,
+      "R-Precision@5": 0.6562
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.7031,
+      "PassageRecall@5": 0.8906,
+      "R-Precision@5": 0.7969
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 0.9
+    },
+    "all": {
+      "DocRecall@5": 0.777,
+      "PassageRecall@5": 0.9122,
+      "R-Precision@5": 0.6167
+    },
+    "embed_time_sec": 873.2,
+    "chunk_time_sec": 11.5,
+    "avg_retrieval_sec": 0.258,
+    "config": {
+      "id": 5,
+      "splitter": "token",
+      "chunk_size": 500,
+      "overlap": 50,
+      "embed_model": "BAAI/bge-large-en-v1.5",
+      "note": "Medium-Chunk Large Model - Confronto diretto con la Config 4 per vedere se i vettori a 1024 dimensioni di BGE-Large estraggono meglio il contesto."
+    }
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.75,
+      "PassageRecall@5": 0.8438,
+      "R-Precision@5": 0.5625
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.625,
+      "PassageRecall@5": 0.7812,
+      "R-Precision@5": 0.6719
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 0.8
+    },
+    "all": {
+      "DocRecall@5": 0.7297,
+      "PassageRecall@5": 0.8243,
+      "R-Precision@5": 0.5278
+    },
+    "embed_time_sec": 119.5,
+    "chunk_time_sec": 2.4,
+    "avg_retrieval_sec": 0.162,
+    "config": {
+      "id": 6,
+      "splitter": "sentence",
+      "chunk_size": 350,
+      "overlap": 50,
+      "embed_model": "BAAI/bge-base-en-v1.5",
+      "note": "Medium-Chunk (Sentence) - Configurazione testuale pura. 350 unità sintattiche producono ~450-480 token, restando sotto il limite di 512."
+    }
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7188,
+      "PassageRecall@5": 0.9375,
+      "R-Precision@5": 0.4688
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.6875,
+      "PassageRecall@5": 0.7969,
+      "R-Precision@5": 0.7188
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.8,
+      "R-Precision@5": 0.7
+    },
+    "all": {
+      "DocRecall@5": 0.7432,
+      "PassageRecall@5": 0.8581,
+      "R-Precision@5": 0.5
+    },
+    "embed_time_sec": 1419.4,
+    "chunk_time_sec": 2638.6,
+    "avg_retrieval_sec": 0.169,
+    "config": {
+      "id": 7,
+      "splitter": "semantic",
+      "chunk_size": 400,
+      "overlap": 0,
+      "embed_model": "BAAI/bge-large-en-v1.5",
+      "note": "Semantic Chunking - Divide il testo in base alle variazioni di significato (embedding distance). Target prudenziale a 400 token."
+    }
+  }
+]

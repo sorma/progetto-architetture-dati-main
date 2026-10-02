@@ -1,0 +1,86 @@
+[
+  {
+    "config_id": "C1",
+    "model": "llama3.2:3b",
+    "prompt_strategy": "standard",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C2",
+    "model": "llama3.2:3b",
+    "prompt_strategy": "step_back",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C3",
+    "model": "llama3.2:3b",
+    "prompt_strategy": "cot",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C4",
+    "model": "llama3.1:8b",
+    "prompt_strategy": "standard",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C5",
+    "model": "llama3.1:8b",
+    "prompt_strategy": "step_back",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C6",
+    "model": "llama3.1:8b",
+    "prompt_strategy": "cot",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C7",
+    "model": "qwen2.5:7b",
+    "prompt_strategy": "standard",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C8",
+    "model": "qwen2.5:7b",
+    "prompt_strategy": "step_back",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C9",
+    "model": "qwen2.5:7b",
+    "prompt_strategy": "cot",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C10",
+    "model": "gemma2:9b",
+    "prompt_strategy": "standard",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C11",
+    "model": "gemma2:9b",
+    "prompt_strategy": "step_back",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  },
+  {
+    "config_id": "C12",
+    "model": "gemma2:9b",
+    "prompt_strategy": "cot",
+    "icl": "zero_shot",
+    "temperature": 0.0
+  }
+]

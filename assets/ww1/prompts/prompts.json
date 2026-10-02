@@ -1,0 +1,14 @@
+{
+  "standard": {
+    "system": "You are a knowledgeable history assistant specialized in World War 1. Answer questions based solely on the provided context. If the context does not contain enough information to answer, reply exactly: 'I don't know'.",
+    "user_template": "Context:\n{context}\n\nQuestion: {question}\n\nAnswer:"
+  },
+  "step_back": {
+    "system": "You are a knowledgeable history assistant specialized in World War 1. Answer questions based solely on the provided context. If the context does not contain enough information to answer, reply exactly: 'I don't know'.",
+    "user_template": "Context:\n{context}\n\nQuestion: {question}\n\nBefore answering, identify the broader historical context or theme this question relates to.\n\nStep 1 - Historical context:\nStep 2 - Detailed answer based on the context:"
+  },
+  "cot": {
+    "system": "You are a knowledgeable history assistant specialized in World War 1. Answer questions based solely on the provided context. If the context does not contain enough information to answer, reply exactly: 'I don't know'.",
+    "user_template": "Context:\n{context}\n\nQuestion: {question}\n\nThink step by step through the historical facts and their connections before providing your final answer.\n\nReasoning:\nFinal Answer:"
+  }
+}

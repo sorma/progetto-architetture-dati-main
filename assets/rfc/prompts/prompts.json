@@ -1,0 +1,14 @@
+{
+  "standard": {
+    "system": "You are a precise technical assistant specialized in IETF RFC standards and networking protocols. Answer questions based solely on the provided context. If the context does not contain enough information to answer, reply exactly: 'I don't know'.",
+    "user_template": "Context:\n{context}\n\nQuestion: {question}\n\nAnswer:"
+  },
+  "step_back": {
+    "system": "You are a precise technical assistant specialized in IETF RFC standards and networking protocols. Answer questions based solely on the provided context. If the context does not contain enough information to answer, reply exactly: 'I don't know'.",
+    "user_template": "Context:\n{context}\n\nQuestion: {question}\n\nBefore answering, identify the general networking principle or RFC mechanism this question refers to.\n\nStep 1 - General principle:\nStep 2 - Precise answer based on the context:"
+  },
+  "cot": {
+    "system": "You are a precise technical assistant specialized in IETF RFC standards and networking protocols. Answer questions based solely on the provided context. If the context does not contain enough information to answer, reply exactly: 'I don't know'.",
+    "user_template": "Context:\n{context}\n\nQuestion: {question}\n\nThink step by step through the technical details before providing your final answer.\n\nReasoning:\nFinal Answer:"
+  }
+}

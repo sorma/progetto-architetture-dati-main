@@ -1,0 +1,1050 @@
+[
+    {
+        "id": "q501",
+        "question": "What was the 'Plattsburg Idea' introduced in 1915?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "In 1915, his effort led to a four-week camp for business and professional men at Plattsburg Barracks, New York. Known as the Plattsburg Idea, its success justified opening other camps, assuring a relatively small but influential cadre possessing basic military skills and imbued with enthusiasm for preparedness."
+        ],
+        "answer": "The 'Plattsburg Idea' was an initiative that established a four-week military training camp for business and professional men at Plattsburg Barracks, New York, in 1915. Its success led to the opening of additional camps to build a cadre of individuals with basic military skills."
+    },
+    {
+        "id": "q502",
+        "question": "What restriction did the National Defense Act of 1916 place on the General Staff?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "On the negative side, the law also contained a severe restriction inserted by opponents of a strong General Staff, sharply limiting the number of officers who could be detailed to serve on the staff at the same time in or near Washington, D.C."
+        ],
+        "answer": "The National Defense Act of 1916 contained a severe restriction that sharply limited the number of officers who could be detailed to serve on the General Staff at the same time in or near Washington, D.C."
+    },
+    {
+        "id": "q503",
+        "question": "What did the Zimmermann telegram propose to Mexico?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "This message, sent in January from the German Foreign Secretary, Arthur Zimmermann, to the German envoy to Mexico, proposed that in the event of war with the United States, Germany and Mexico would affect an alliance. In exchange for Mexico’s taking up arms against the United States, Germany would provide generous financial assistance. Victory achieved, Mexico was to regain its lost territories of Texas, New Mexico, and Arizona."
+        ],
+        "answer": "The Zimmermann telegram proposed an alliance between Germany and Mexico in the event of war with the United States. Germany offered generous financial assistance and the return of Mexico's lost territories in Texas, New Mexico, and Arizona in exchange for Mexico taking up arms against the U.S."
+    },
+    {
+        "id": "q504",
+        "question": "Why did AEF planners prefer Lorraine as the American zone of operations?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "Logisticians supplying an American army in Lorraine would avoid the congested northern logistical facilities by using the railroads of central France that stretched back to the ports along the southwestern French coast. Furthermore, the Americans could move into the region with relative ease, and without disturbing any major Allied forces, because only a limited number of French troops occupied Lorraine."
+        ],
+        "answer": "AEF planners preferred Lorraine because it allowed American logisticians to avoid congested northern facilities by using central French railroads connected to southwestern ports. Additionally, the region was lightly held by French troops, allowing the Americans to move in easily without disturbing major Allied operations."
+    },
+    {
+        "id": "q505",
+        "question": "What was the total targeted strength of an American square division including supporting logistics?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "To maintain divisional effectiveness in the trenches of the Western Front, the General Organization Project enlarged the division to a strength of 25,484 (increasing to just over 28,000 including supporting logistics units), about twice the size of Allied divisions."
+        ],
+        "answer": "The total targeted strength of an American square division, when including supporting logistics units, was just over 28,000 men. This made it approximately twice the size of standard Allied divisions."
+    },
+    {
+        "id": "q506",
+        "question": "How did the War Department designate division numbers to distinguish between Regular Army, National Guard, and National Army units?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "The War Department introduced a new numbering system to distinguish between the three organizations. The Regular Army would form into divisions numbering 1 through 25 as needed. Divisions drawn from the National Guard received numbers from 26 to 75. Finally, National Army units received numbers above 75."
+        ],
+        "answer": "The War Department numbered Regular Army divisions from 1 through 25, National Guard divisions from 26 to 75, and newly drafted National Army units received numbers above 75."
+    },
+    {
+        "id": "q507",
+        "question": "What was the main purpose of the Cantonment Division of the Quartermaster Corps?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "To address the problem, Secretary Baker ordered the creation of an independent Cantonment Division of the Quartermaster Corps to work with a civilian Committee on Emergency Construction to provide adequate training facilities within six to twelve months."
+        ],
+        "answer": "The main purpose of the Cantonment Division of the Quartermaster Corps was to collaborate with a civilian Committee on Emergency Construction to quickly build adequate training facilities and camps for hundreds of thousands of new inductees."
+    },
+    {
+        "id": "q508",
+        "question": "Why did General Pershing insist on 'open warfare' training instead of strictly trench warfare?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "After surveying the battlefields of the Western Front, Pershing concluded that to defeat the Germans the AEF needed to get out of the trenches and fight what he called “open warfare.” The concept began with well-trained and aggressive infantry breaching enemy lines rather than the heavy artillery barrages and sophisticated fire support plans preferred by the British and French. Pershing thought Allied operational thinking flawed"
+        ],
+        "answer": "General Pershing insisted on 'open warfare' because he believed victory could not be won through costly attrition in the trenches. He wanted well-trained, aggressive infantry capable of breaching enemy lines and engaging in a war of movement, feeling that British and French operational thinking was fundamentally flawed."
+    },
+    {
+        "id": "q509",
+        "question": "Who was appointed as the AEF's general purchasing agent in Europe?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "To head this new board, Pershing appointed his trusted friend, Charles G. Dawes, to be the AEF’s general purchasing agent. A prominent banker (and future vice president in the Calvin Coolidge administration), Dawes used his business acumen to cut through red tape and locate sources of supplies in Europe."
+        ],
+        "answer": "Charles G. Dawes, a prominent banker and trusted friend of General Pershing, was appointed as the AEF's general purchasing agent in Europe to bypass red tape and acquire essential supplies locally."
+    },
+    {
+        "id": "q510",
+        "question": "What was the 93d Division's unique composition?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "One unique American “division” in France at this time was the 93d Division, eventually composed exclusively of four segregated African American infantry regiments built from prewar National Guard units and rounded out with wartime volunteers and draftees."
+        ],
+        "answer": "The 93d Division was uniquely composed exclusively of four segregated African American infantry regiments, which were formed from prewar National Guard units and supplemented by wartime volunteers and draftees."
+    },
+    {
+        "id": "q511",
+        "question": "What reason did General Pershing give his troops for attacking at Cantigny?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "The day before the long hike east, General Pershing assembled the division’s officers to tell them that they were “about to enter this great battle of the greatest war in history” and remind them that “in that battle” they would “represent the mightiest nation engaged”"
+        ],
+        "answer": "General Pershing told his officers that they were entering the greatest battle in history and that they represented the mightiest nation engaged. He reminded them of their national tradition of liberty and stated that the future hung upon their actions in the conflict."
+    },
+    {
+        "id": "q512",
+        "question": "How many casualties did the 2nd Division suffer during the forty days in the Belleau Wood sector?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "When the 2d Division finally left the front lines after forty days in the sector, the casualty list ran to some 8,000 names."
+        ],
+        "answer": "The 2nd Division suffered approximately 8,000 casualties during its grueling forty days of fighting in and around the Belleau Wood sector."
+    },
+    {
+        "id": "q513",
+        "question": "Which specific German divisions were engaged by the Americans on 6 June at Belleau Wood?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "The two German divisions attacked by the Americans on 6 June, the 237th and 10th Divisions, suffered approximately 400 and 150 casualties, respectively."
+        ],
+        "answer": "The Americans engaged the German 237th and 10th Divisions during their attacks on 6 June at Belleau Wood."
+    },
+    {
+        "id": "q514",
+        "question": "What doctrine did General Pétain prescribe for defense in his Directive No. 4?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "In general, all the forces under the control of the French high command (GQG) were to adhere to the principles of elastic defense-in-depth, which Pétain had laid out in his Directive No. 4 in December 1917. This document prescribed a lightly held front line, with the main “combat zone” located several kilometers to the rear."
+        ],
+        "answer": "General Pétain's Directive No. 4 prescribed the principles of elastic defense-in-depth, utilizing a lightly held front line designed for sacrifice, with the main combat zone situated several kilometers to the rear away from enemy artillery."
+    },
+    {
+        "id": "q515",
+        "question": "Why did General Degoutte deviate from Pétain's defense-in-depth doctrine at the Marne?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "Pétain, however, did not require his subordinates to implement these instructions to the letter. He permitted them to use their own judgment regarding the proper forms of deployment within their defensive sectors. This meant that... Degoutte instead directed his men to defend the Marne “with one foot in the water,” prescribing a rigid, linear defense."
+        ],
+        "answer": "General Degoutte deviated from the doctrine because Pétain permitted his subordinates to use their own judgment regarding deployment. Degoutte chose a rigid, linear defense, ordering his troops to defend the Marne strictly 'with one foot in the water'."
+    },
+    {
+        "id": "q516",
+        "question": "How did the 30th Infantry Regiment organize its defense compared to the 38th Infantry Regiment on the Marne?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "Col. Edmund L. Butts, commanding the 30th Infantry, distributed his battalions among the widely spaced first-, second-, and third-line positions—effectively preparing a defense-in-depth. However, Col. Ulysses G. McAlexander ordered his 38th Infantry to reinforce the front line, positioning four companies—about 1,000 men—in the “outpost zone” to prevent the Germans from crossing the river."
+        ],
+        "answer": "Colonel Butts distributed the 30th Infantry effectively into a defense-in-depth across three lines. In contrast, Colonel McAlexander organized the 38th Infantry with a heavy emphasis on reinforcing the front line, placing 1,000 men right in the outpost zone to physically prevent Germans from crossing."
+    },
+    {
+        "id": "q517",
+        "question": "What was the significance of the American 1st Pursuit Group's operations over the Marne salient?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "While the 1st Pursuit Group contested German air superiority, the I Corps Observation Group conducted a series of reconnaissance flights over the German front lines and rear areas... Although American fighters engaged in dogfights during the rest of the day, they suffered no casualties and earned no confirmed kills. American aircraft flew numerous missions during the following days, and the 1st Pursuit Group claimed to have destroyed a total of eight German aircraft between 15 and 18 July."
+        ],
+        "answer": "The 1st Pursuit Group was crucial in contesting German air superiority, claiming the destruction of eight German aircraft between 15 and 18 July while protecting vital reconnaissance flights over the front lines."
+    },
+    {
+        "id": "q518",
+        "question": "Who commanded the French Tenth Army during the Soissons offensive?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "The Soissons offensive fell to the French Tenth Army, under the command of General Charles Mangin—an experienced officer known throughout the French Army as “le boucher,” or “the butcher,” for his aggressive tactics."
+        ],
+        "answer": "General Charles Mangin, famously known as 'le boucher' (the butcher) for his highly aggressive tactics, commanded the French Tenth Army during the Soissons offensive."
+    },
+    {
+        "id": "q519",
+        "question": "Which American division captured the village of Juvigny?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "At this point, the 32d Division clasped Juvigny like a rock in the palm of a closing fist... the 127th Infantry breached the town’s defenses that afternoon. Savage close quarters fighting with grenades and bayonets forced the Germans from their positions. After securing the town, the Americans took shelter"
+        ],
+        "answer": "The U.S. 32d (Red Arrow) Division was responsible for capturing the village of Juvigny after engaging in savage close-quarters combat."
+    },
+    {
+        "id": "q520",
+        "question": "Who commanded the Australian Corps during the Battle of Hamel?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "Rawlinson ordered General John Monash’s Australian Corps to take Hamel."
+        ],
+        "answer": "General John Monash was the commander of the Australian Corps during the Battle of Hamel."
+    },
+    {
+        "id": "q521",
+        "question": "What military mission did Major General Eben Swift lead in January 1918?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "In January 1918, Secretary of War Newton D. Baker ordered the creation of the American Military Mission to Italy. He tapped Maj. Gen. Eben Swift, commander of a cavalry division during the 1916 Mexican Expedition and the first commander of the 82d Division, to lead the mission."
+        ],
+        "answer": "Major General Eben Swift led the American Military Mission to Italy, which was created to assess Italian military morale, logistics, and needs."
+    },
+    {
+        "id": "q522",
+        "question": "Which two American divisions assaulted the Bellicourt Tunnel on the Hindenburg Line?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "The 27th and 30th Divisions would carry out the first phase of the attack on the tunnel and its perimeter defenses."
+        ],
+        "answer": "The American 27th and 30th Divisions, operating under the British Australian Corps, were tasked with assaulting the Bellicourt Tunnel on the Hindenburg Line."
+    },
+    {
+        "id": "q523",
+        "question": "What specific town did the 332d Infantry capture on November 4, 1918, in Italy?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "By 0900, they captured the town of Codroipo, seizing medical supplies, food stores, wheeled transportation, and “two and one-half million dollars’ worth of ammunition (all calibers)” along with a German 77-mm. gun."
+        ],
+        "answer": "The 332d Infantry captured the town of Codroipo on November 4, 1918, seizing millions of dollars worth of ammunition and supplies."
+    },
+    {
+        "id": "q524",
+        "question": "How many aircraft were assembled for the St. Mihiel Offensive?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "With a total of 1,481 aircraft, including 366 observation airplanes, 323 day bombers, 91 night bombers, and 701 pursuit aircraft, the St. Mihiel Offensive was the largest assembly of aviation assets committed to a single operation to that date."
+        ],
+        "answer": "A total of 1,481 aircraft were assembled for the St. Mihiel Offensive, marking the largest commitment of aviation assets to a single operation at that time."
+    },
+    {
+        "id": "q525",
+        "question": "Who commanded the Tank Corps' 304th Brigade at St. Mihiel?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Brig. Gen. Samuel D. Rockenback, commander of all AEF tank units and training centers, assigned Lt. Col. George S. Patton Jr. and the Tank Corps’ 304th Brigade to the First Army for the operation."
+        ],
+        "answer": "Lieutenant Colonel George S. Patton Jr. commanded the Tank Corps' 304th Brigade during the St. Mihiel Offensive."
+    },
+    {
+        "id": "q526",
+        "question": "What deception plan did General Conner create before the St. Mihiel offensive?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "To further deceive the Germans that the American attack would take place through the Belfort Gap, General Conner, the AEF operations officer, created an elaborate ruse. He gave Maj. Gen. Omar Bundy, commanding general of the VI Army Corps, detailed plans for a fictitious offensive leading out of Belfort in the direction of the heights to the southeast."
+        ],
+        "answer": "General Conner created an elaborate deception involving a fictitious offensive leading out of the Belfort Gap, complete with false radio traffic and planted documents in an espionage-filled hotel."
+    },
+    {
+        "id": "q527",
+        "question": "What was the purpose of designating 'D-day' and 'H-hour' at St. Mihiel?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "To better coordinate the attack with all units operating on the same schedule, the First Army planners developed a simple control measure. They designated the date on which an operation would begin as “D-day,” and the time as “H-hour.”... These control measures appeared for the first time in American military history on the First Army order for the St. Mihiel Offensive."
+        ],
+        "answer": "The terms 'D-day' and 'H-hour' were created as simple control measures to coordinate the timing of the massive multi-corps attack on the exact same schedule, marking their first usage in American military history."
+    },
+    {
+        "id": "q528",
+        "question": "Which German defensive line were forces instructed to withdraw to from the St. Mihiel salient?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "As early as June 1918, the high command began work on a planned troop withdrawal from the salient, code-named loki... the defenders would withdraw to the shorter, more defensible Michel position across the base of the salient to make their stand."
+        ],
+        "answer": "The Germans planned to withdraw from the forward salient to the shorter, more heavily fortified 'Michel position' (or Michel Line) across the base of the salient."
+    },
+    {
+        "id": "q529",
+        "question": "What branch of the U.S. Army was practically proven obsolete by the combat at St. Mihiel?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Cavalry was a different story. Although the 2d Cavalry Regiment enjoyed some success, St. Mihiel provided further proof that cavalry had become obsolete on battlefields dominated by artillery, rapid-fire weapons, and barbed wire."
+        ],
+        "answer": "The Cavalry was practically proven obsolete at St. Mihiel, as battlefields dominated by rapid-fire machine guns, massed artillery, and barbed wire rendered mounted troops highly vulnerable and ineffective."
+    },
+    {
+        "id": "q530",
+        "question": "How did Foch initially plan to use American forces in his Grand Allied Offensive before the St. Mihiel compromise?",
+        "type": "single_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "To support this new plan, Foch wanted the Americans to operate on the French right flank, driving north into the area bounded by the Meuse River and the Argonne Forest. Instead of acting under the command of the U.S. First Army, most American divisions would serve as reinforcements for the French Second and Fourth Armies."
+        ],
+        "answer": "Foch initially planned to break up the U.S. First Army and use most American divisions as scattered reinforcements for the French Second and Fourth Armies driving into the Meuse-Argonne region."
+    },
+    {
+        "id": "q531",
+        "question": "How did American officer training at the Plattsburg camps compare to the education at Fort Leavenworth's schools?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "In 1915, his effort led to a four-week camp for business and professional men at Plattsburg Barracks, New York... assuring a relatively small but influential cadre possessing basic military skills",
+            "One advantage that many of Pershing’s staff officers shared was their training at Fort Leavenworth’s service schools. A component of the Root reforms at the turn of the century, these schools provided comprehensive training in the tactics, administration, and employment of large-scale units."
+        ],
+        "answer": "The Plattsburg camps were short, four-week programs designed to quickly give civilian business and professional men basic military skills to serve as junior officers. In contrast, the service schools at Fort Leavenworth offered rigorous, comprehensive, and advanced professional education focusing on complex tactics, staff administration, and the operational employment of large-scale combat units."
+    },
+    {
+        "id": "q532",
+        "question": "In what ways did the logistical challenges of troop transport across the Atlantic mirror the railroad difficulties within France?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "Transporting the 1st Division in June 1917 required more than 110 special trains dedicated solely to carrying troops... troops traveling to Camp Merritt for embarkation to France often waited days or even weeks until railcars became available.",
+            "The French initially assigned the Atlantic ports of St. Nazaire, La Pallice, and Bassens to the AEF... American troops and cargo had to be unloaded, wait for available transport, and then journey across 400 miles of poorly maintained French railroads before reaching most AEF depots, a process that frequently resulted in confusion and delays."
+        ],
+        "answer": "Both transatlantic troop mobilization and internal French logistics suffered from massive transport bottlenecks. In the U.S., a severe shortage of dedicated railcars forced troops to wait weeks just to reach embarkation ports like Camp Merritt. Upon arriving in France, they faced similar chaos, having to endure long waits at the ports before traveling over 400 miles of poorly maintained, congested French railways to reach their depots."
+    },
+    {
+        "id": "q533",
+        "question": "How did the French deployment of Renault FT tanks to support American infantry at Juvigny compare to their use at Soissons?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-6.pdf",
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "A battalion of French FT tanks (thirty total) was to accompany the assaulting infantry, making this the 32d Division’s first operation with armor... German artillery steadily knocked out the Renault FTs covering the advance, ultimately disabling the entire force.",
+            "A total of fifty-seven tanks, mainly Saint-Chamonds, went into battle in support of the 2d Division, while twenty-seven Schneiders accompanied the 1st Division. Owing to technical problems— common to tank operations throughout the First World War—only 225 tanks of the 2d Tank Brigade made it to the battlefield on 18 July"
+        ],
+        "answer": "At Juvigny, a small battalion of thirty Renault FT tanks supported the 32nd Division, but German artillery systematically disabled the entire armored force. At Soissons, tank deployment was massively scaled up, utilizing 478 tanks (the largest French tank battle of the war), consisting of varied heavy and light models like Saint-Chamonds and Schneiders to successfully support the 1st and 2nd Divisions, despite heavy mechanical attrition."
+    },
+    {
+        "id": "q534",
+        "question": "How did the defensive tactics at Belleau Wood impact the French command's operational confidence prior to Blanc Mont?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "The spectacle of this magnificent youth from across the sea, these youngsters of twenty years with smooth faces, radiating strength and health in their new uniforms, had an immense effect... The general impression was that a magical transfusion of blood was taking place.",
+            "Lejeune’s staff developed a complicated plan for the impending attack... Considering the strength of the German defenses, the French provided the Americans two aero squadrons, a balloon company, and the majority of the XXI Corps’ artillery units."
+        ],
+        "answer": "The ferocious American defense and counterattacks at Belleau Wood proved their combat tenacity and acted as a 'magical transfusion of blood' that deeply reinvigorated French morale. This newfound confidence in American combat prowess led the French command to entrust the 2nd Division with spearheading the crucial, complex assault on the heavily fortified Blanc Mont Ridge, actively supporting them with massive French aviation and artillery assets."
+    },
+    {
+        "id": "q535",
+        "question": "How did the American reliance on foreign weaponry affect the AEF's Tank Corps at St. Mihiel compared to the Air Service?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Despite possessing the world’s largest automotive industry, the United States had to rely on French tanks for the AEF’s Tank Corps",
+            "All of the American and some of the French tank units were committed to support the IV Corps... The brigade consisted of the 326th and 327th Battalions... Each battalion included seventy-seven French-built light Renault FT tanks.",
+            "The U.S. units accounted for about 40 percent of the total, with the French providing most of the rest. American forces consisted of primarily Spad XIII pursuit aircraft; Salmson 2–A2, DeHavilland 4 (DH–4), and Breguet 14 A.2 observation planes"
+        ],
+        "answer": "The AEF was almost entirely dependent on foreign industry for both armor and aviation. At St. Mihiel, the U.S. Tank Corps operated exclusively with French-built Renault FT light tanks because American industry failed to produce armor in time. Similarly, the Air Service relied heavily on French Spads, Salmsons, and Breguets, with the exception of the recently arrived American-built DH-4 bombers."
+    },
+    {
+        "id": "q536",
+        "question": "How did General Pershing's view on amalgamation directly influence the deployment of the 93rd Division?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "In addition, Pershing agreed to transfer the four African American infantry regiments of the 93d Division to the French Army, where they were eventually incorporated into French divisions.",
+            "The 369th Infantry formed part of the French 161st Division, while the 371st and 372d joined the renowned French 157th Division (known as the “Red Hand”)."
+        ],
+        "answer": "Pershing generally opposed amalgamating American troops into foreign armies to maintain an independent AEF. However, as a political and military compromise during the manpower crises of 1918, he made a specific exception for the segregated African American 93rd Division, allowing its regiments to be fully transferred and permanently incorporated into French combat divisions like the 157th and 161st."
+    },
+    {
+        "id": "q537",
+        "question": "How did the casualty figures of the 1st Division at Cantigny compare to its later engagement at Soissons?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "The final casualty toll for the assault and defense of Cantigny came to 38 officers and 903 men—an astoundingly high figure for a successful attack by one reinforced regiment.",
+            "In only five days of combat, the 1st Division had forced an advance of eleven kilometers, sustaining a total of 6,870 casualties, including over 1,500 dead. Losses among commissioned officers were particularly heavy, amounting to as much as 60 percent killed or wounded."
+        ],
+        "answer": "At Cantigny, which was a relatively localized regimental operation, the 1st Division suffered 941 total casualties. At the massive, multi-divisional Soissons counteroffensive, the division fought for five grueling days, pushing eleven kilometers deep, and endured vastly higher losses, sustaining 6,870 casualties (including over 1,500 dead and 60% of its officers)."
+    },
+    {
+        "id": "q538",
+        "question": "How did the structure of the American square division compare in size and strength to standard German divisions in 1918?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "the General Organization Project enlarged the division to a strength of 25,484 (increasing to just over 28,000 including supporting logistics units), about twice the size of Allied divisions.",
+            "Even after receiving replacements before the offensive, German divisions were severely understrength... The divisions themselves could muster only about 5,000 effectives each. In contrast, American infantry companies consisted of 250 men at full strength, and American divisions—over twice the size of full-strength French or German divisions—amounted to no less than 28,000 men."
+        ],
+        "answer": "The American 'square' division was a massive, heavily manned formation built for sustained combat, boasting a total strength of over 28,000 men including logistics. In sharp contrast, by 1918, disease, attrition, and lack of replacements left standard German divisions severely understrength, able to muster only about 5,000 effective frontline troops each."
+    },
+    {
+        "id": "q539",
+        "question": "How did Foch's role and authority evolve from his appointment in March to his command of the Grand Allied Offensive?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-3.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "On 26 March, the Allies appointed French General Ferdinand Foch to the position of “generalissimo,” with the official title of General in Chief of the Allied Armies. Henceforth, he would coordinate the various Allied armies on the Western Front, guiding but not directly commanding the Allied military effort.",
+            "Pershing spent considerable time in negotiations with Foch, who was named Marshal of France on 6 August... Foch conceived a “Grand Allied Offensive” involving the Belgians, British, French, and Americans attacking on the broadest possible front."
+        ],
+        "answer": "In March 1918, Foch was appointed 'generalissimo' to merely guide and coordinate the fragmented Allied armies without direct, absolute command authority. By August, having successfully halted the German offensives, he was promoted to Marshal of France, wielding enough overarching strategic authority to conceptualize and orchestrate the massive, synchronized 'Grand Allied Offensive' across the entire Western Front."
+    },
+    {
+        "id": "q540",
+        "question": "How did the performance of the 26th Division at Seicheprey compare to their advance at St. Mihiel?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Over the next twelve weeks, they suffered more than 2,000 casualties, many while desperately fighting off a large, intense German raid near Seicheprey.",
+            "The Yankee Division soldiers finally reached their assigned objectives during the afternoon and early evening of 12 September... The brigade was ordered to conduct a night march along the Grande Tranchée de Calonne... The race was on to link up with the IV Corps before the Germans could affect their withdrawal."
+        ],
+        "answer": "At Seicheprey, the 26th Division was heavily battered while passively defending the trenches against a fierce German trench raid, leading to severe criticism of their readiness. However, during the St. Mihiel offensive, the division demonstrated tremendous offensive mobility and stamina, fighting through dense terrain and executing a rapid night march to successfully link up with the IV Corps and cut off the retreating Germans."
+    },
+    {
+        "id": "q541",
+        "question": "What difference in tactical artillery planning was evident between Cantigny and St. Mihiel?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "The plan called for a “short but very violent artillery preparation” for one hour prior to the infantry assault to neutralize the defenders while maintaining surprise.",
+            "Pershing felt that utilizing a multiday preparatory artillery barrage—as the Allies had done in previous years—would eliminate any chance of surprise and allow the enemy to plan counterstrokes. He therefore decided to allow only enough of an artillery preparation to encourage and embolden the attacking troops... Pershing allotted a period of no longer than four hours for the preattack artillery fires."
+        ],
+        "answer": "At Cantigny, Summerall utilized an extremely brief, violent one-hour artillery preparation to maximize local tactical surprise. At the vastly larger St. Mihiel offensive, Pershing scaled up this doctrine of truncated bombardments, opting for a four-hour barrage—rejecting the traditional multiday bombardments that destroyed surprise—to disrupt the enemy without completely destroying the terrain."
+    },
+    {
+        "id": "q542",
+        "question": "How did the American defense of the Marne differ tactically from the defense at Cantigny?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-5.pdf",
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "McAlexander ordered his 38th Infantry to reinforce the front line, positioning four companies—about 1,000 men—in the “outpost zone” to prevent the Germans from crossing the river.",
+            "The final phase of the fire support plan would ensure support for the infantry after they seized Cantigny and as they prepared for the inevitable German counterattacks. To meet this challenge, much of the artillery that had fired the rolling barrage would shift to a “box barrage” after the assault, surrounding the infantry with a curtain of protective fire on three sides"
+        ],
+        "answer": "At the Marne, Colonel McAlexander utilized a highly rigid, forward-loaded defense, physically packing the outpost zone with 1,000 infantrymen to shoot the Germans as they attempted to cross the river. At Cantigny, the defense relied heavily on sophisticated, pre-planned artillery integration, utilizing a protective 'box barrage' on three sides of the infantry to isolate them and break up German counterattacks from afar."
+    },
+    {
+        "id": "q543",
+        "question": "How did the War Department's reorganization under Peyton March impact troop deployments compared to the early months of 1917?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-3.pdf",
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "His sole focus was to get as many men to France in the shortest time possible... The effort paid dividends when 100,000 men were shipped to France in April 1918, the first time the War Department reached that milestone.",
+            "In December 1917 only 183,000 American soldiers were in France, comprising parts of five divisions and performing various service support functions."
+        ],
+        "answer": "In the early months of the war in 1917, troop deployments were incredibly sluggish, resulting in only 183,000 total soldiers in France by December. Following General Peyton March's ruthless reorganization and centralization of the War Department in early 1918, logistics were massively streamlined, allowing the Army to ship 100,000 men in April alone, accelerating to 10,000 arrivals per day by the summer."
+    },
+    {
+        "id": "q544",
+        "question": "How did the AEF's 'Services of Supply' system prepare for the massive logistical movement before St. Mihiel?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "To provide logistical support, he created a commander of the Line of Communications, subsequently renamed Services of Supply... the supply organization was divided into base sections at each of the French ports, an intermediate section for storage and classification of supplies, and an advance section for distribution",
+            "The buildup for the St. Mihiel attack involved over half a million Americans and 110,000 Frenchmen. Supporting the attack would require some 3,000 guns, 200,000 tons of supplies, and 50,000 tons of ammunition. Some of the men and equipment were already in position, but most would have to be transported into the area. The staff officers needed to prepare detailed march tables to make the best use of the available roads."
+        ],
+        "answer": "The 'Services of Supply' (formerly Line of Communications) established a massive, structured pipeline from French port base sections, through intermediate storage, up to the advance distribution sections. This vast infrastructure and rigorous staff planning enabled them to successfully execute detailed march tables to transport over half a million troops, 200,000 tons of supplies, and 50,000 tons of ammunition required for the St. Mihiel offensive."
+    },
+    {
+        "id": "q545",
+        "question": "How did the influenza epidemic affect the German forces prior to the American deployment at Hamel?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-5.pdf",
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "The first wave of the influenza epidemic in the summer of 1918 sent as many as 2,000 men per division to the hospital. Even after receiving replacements before the offensive, German divisions were severely understrength.",
+            "With his command roughly 2,000 men understrength, Monash looked to the newly arrived Americans to augment his force... Companies C and E of the 131st Infantry, and Companies A and G of the 132d Infantry, broke into their constituent platoons for incorporation into Australian units"
+        ],
+        "answer": "The influenza epidemic severely decimated German ranks, putting up to 2,000 men per division in the hospital and rendering them drastically understrength. Conversely, while Allied units like the Australian Corps also suffered from heavy attrition, they were able to actively offset their 2,000-man shortage at Hamel by integrating fresh, healthy American companies directly into their frontline platoons."
+    },
+    {
+        "id": "q546",
+        "question": "How did the 3rd Division's role at Château-Thierry differ from its actions near the Surmelin ravine?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "A few hundred machine gunners of the 3d Division delayed the Germans in the northern outskirts of Château-Thierry, gained time for the withdrawal of the outnumbered French troops, and prevented the crossing of the bridges until they could be blown up.",
+            "The Germans later resumed the offensive during the afternoon, assaulting the 38th Infantry’s positions east of the Surmelin ravine. In response to this renewed threat to his right flank, Colonel McAlexander ordered the 1st and 2d Battalions, 38th Infantry... to fall back toward the “aqueduct line”"
+        ],
+        "answer": "At Château-Thierry, the 3rd Division deployed a small, highly mobile motorized machine gun battalion specifically to fight a delaying action on the northern outskirts, covering the French retreat and holding the bridges until demolition. Near the Surmelin ravine, the 3rd Division's 38th Infantry regiment fought a massive, grinding defensive infantry battle, maneuvering multiple battalions to block severe German flanking attacks and executing an elastic withdrawal to the 'aqueduct line'."
+    },
+    {
+        "id": "q547",
+        "question": "How did the Battle of Amiens validate Foch's 'Grand Allied Offensive' strategy?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-6.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Ludendorff claimed that 8 August 1918, the first day of the British offensive at Amiens, was the “black day of the German Army... The attack launched on that day was a true coalition effort.",
+            "The scale of the subsequent Allied successes suggested the possibility of even more dramatic advances. Instead of independent attacks with limited objectives undertaken by individual Allied armies, Foch conceived a “Grand Allied Offensive” involving the Belgians, British, French, and Americans attacking on the broadest possible front."
+        ],
+        "answer": "The crushing success of the British-led coalition attack at Amiens (which Ludendorff called the 'black day of the German Army') proved that the German fighting power was rapidly declining. This dramatic victory directly validated Foch's realization that the Allies no longer needed to limit themselves to isolated local counterattacks, inspiring him to rapidly expand his strategy into a massive, synchronized 'Grand Allied Offensive' across the entire Western Front."
+    },
+    {
+        "id": "q548",
+        "question": "How did the AEF's 'square' division structure function during the 42nd Division's attack at the Ourcq?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "This organization would permit the division to attack on a frontage of two brigades, each with a regiment in front and the other in reserve.",
+            "The 83d Infantry Brigade advanced with the 166th and 165th Infantry on line... The 83d Brigade advanced eight kilometers and occupied the villages of Essey-et-Maizerais... To the rear of these followed the regiments’ third infantry battalions with their attached units."
+        ],
+        "answer": "The massive 'square' division structure allowed units like the 42nd Division to attack with incredible depth and staying power. At the Ourcq and St. Mihiel, they advanced with two massive brigades abreast, keeping thick lines of infantry supported by secondary battalions in reserve, which allowed them to continually absorb horrific casualties while maintaining constant pressure to punch through the deep German defenses."
+    },
+    {
+        "id": "q549",
+        "question": "Compare the American aviation assets deployed at the Marne salient with those utilized during St. Mihiel.",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-5.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Opposing this German force was a range of Allied squadrons, including two inexperienced and underequipped units belonging to the AEF’s Air Service, the 1st Pursuit Group and the I Corps Observation Group",
+            "With a total of 1,481 aircraft, including 366 observation airplanes, 323 day bombers, 91 night bombers, and 701 pursuit aircraft, the St. Mihiel Offensive was the largest assembly of aviation assets committed to a single operation to that date."
+        ],
+        "answer": "At the Marne salient, American aviation was nascent, deploying only two inexperienced and underequipped units (the 1st Pursuit Group and I Corps Observation Group) to contest the skies. By the St. Mihiel Offensive just months later, Mitchell had orchestrated a massive, multinational armada of 1,481 aircraft (the largest in history up to that point), employing dedicated waves of pursuit, observation, and day/night bombers to completely dominate the airspace."
+    },
+    {
+        "id": "q550",
+        "question": "How did the 32nd Division earn the nickname 'Les Terribles'?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-6.pdf",
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "Built around National Guard units from Michigan and Wisconsin, the division had fought in the Aisne-Marne Offensive, advancing nineteen kilometers from the Ourcq to the Vesle. The 32d’s soldiers so impressed the French that they took to referring to the Americans as “Les Terribles.”",
+            "The 32d Division drove forward about six kilometers, occupying the villages of Chamery, Coulonges, Cohan, and Dravegny... advancing nineteen kilometers from the Ourcq to the Vesle."
+        ],
+        "answer": "The 32nd Division earned the affectionate nickname 'Les Terribles' from the deeply impressed French military because of their ferocity and relentless driving power during the Aisne-Marne Offensive, where they successfully pushed forward nineteen kilometers from the Ourcq all the way to the Vesle River while capturing multiple fortified villages."
+    },
+    {
+        "id": "q551",
+        "question": "How did the training provided in US camps contrast with the realities the AEF faced under Pershing's 'open warfare' doctrine?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "Initially, much to the dismay of Pershing and his staff in France, this training only emphasized trench, or positional, warfare and excluded rifle marksmanship and other elements of a more open and mobile warfare.",
+            "Pershing concluded that to defeat the Germans the AEF needed to get out of the trenches and fight what he called “open warfare.” The concept began with well-trained and aggressive infantry breaching enemy lines rather than the heavy artillery barrages"
+        ],
+        "answer": "The initial training provided in the U.S. camps rigidly focused on static trench warfare and completely excluded essential skills like rifle marksmanship. This starkly contrasted with the realities of Pershing's desired 'open warfare' doctrine in France, which demanded highly aggressive, mobile infantry capable of breaking out of the trenches and fighting a war of movement in the open."
+    },
+    {
+        "id": "q552",
+        "question": "How did the American reliance on foreign weaponry affect the AEF's artillery capabilities prior to St. Mihiel?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-2.pdf",
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Of the almost 3,500 artillery pieces the AEF had in France, only 477 were American made and only 130 of those were used in combat.",
+            "At the request of the Allies, the Americans had focused on shipping infantry and machine gun battalions to Europe, leaving the First Army well short of the artillery, aircraft, and support units it would need to execute the attack. Pershing spent considerable time in negotiations with Foch... The French also were particularly generous with air support and placed a number of aircraft under Pershing’s command"
+        ],
+        "answer": "Because the AEF relied almost entirely on foreign-manufactured artillery (using only 130 American-made guns in combat out of 3,500 total), and had prioritized shipping infantry over artillery units across the Atlantic, the First Army found itself critically short of organic heavy guns before St. Mihiel. Pershing had to extensively negotiate with Foch to secure massive amounts of borrowed French and British artillery and crews to execute the operation."
+    },
+    {
+        "id": "q553",
+        "question": "How did the 26th Division's National Guard roots compare to the composition of the 77th Division?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-4.pdf",
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "Composed of National Guard units from across New England, the “Yankee Division” had been one of the first four divisions to arrive in France in late 1917",
+            "Filled with draftees from New York, the 77th (Metropolitan) Division was among the first of the newly created National Army divisions to enter the lines."
+        ],
+        "answer": "The 26th 'Yankee' Division was built entirely from established, prewar National Guard units from across New England. Conversely, the 77th 'Metropolitan' Division was a newly formed National Army division, comprised entirely of raw draftees pulled primarily from New York."
+    },
+    {
+        "id": "q554",
+        "question": "How did the initial German Spring Offensive (Operation Michael) alter the strategic situation compared to the later Operation Georgette?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "Launched on 21 March 1918, the offensive crashed through the thinly held defensive lines of General Sir Hubert Gough’s British Fifth Army... and seized over 3,000 square kilometers of French countryside.",
+            "On 9 April, the German high command launched a second offensive: Operation GeorGette. The attack hit the British near Ypres. Initially, it proved so successful that a shocked Field Marshal Sir Douglas Haig, the BEF commander, issued his famous “Backs Against the Wall” order"
+        ],
+        "answer": "Operation Michael was a massive, deep penetration near St. Quentin that seized over 3,000 square kilometers and created a huge salient toward Amiens, forcing the Allies to unify their command. Operation Georgette was a narrower but equally terrifying secondary thrust aimed at the British near Ypres in Flanders, gaining less ground but pushing the BEF so close to the sea that Haig was forced to issue his desperate 'Backs Against the Wall' order."
+    },
+    {
+        "id": "q555",
+        "question": "How did the role of the 2nd Cavalry Regiment at St. Mihiel compare to the use of tanks in the same battle?",
+        "type": "multi_doc",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "He turned to Lt. Col. Oliver P. M. “Happy” Hazard, who commanded a provisional squadron of cavalry, to continue the advance... Not strong enough to block the road without additional support, the cavalry withdrew behind the safety of the 1st Division.",
+            "The 1st Division took Nonsard with the assistance of twenty-five tanks just before they too ran out of gas."
+        ],
+        "answer": "Both units struggled with their equipment and the difficult terrain, but tanks proved far more decisive as assault weapons. The Renault FT tanks directly spearheaded the infantry assaults and helped capture towns like Nonsard before running out of fuel. The 2nd Cavalry, however, was highly vulnerable to hidden machine guns; after a brief dismounted skirmish in the woods, they were unable to secure their blocking objectives and had to retreat behind the infantry lines, proving the mounted arm obsolete."
+    },
+    {
+        "id": "q556",
+        "question": "What was the exact name of the French soldier who taught the 1st Division how to use flamethrowers?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q557",
+        "question": "How many buttons were on the standard-issue American Doughboy uniform in 1918?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q558",
+        "question": "Which specific German general ordered the retreat from the town of Pannes?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q559",
+        "question": "What was the serial number of the first Renault FT tank to cross the start line at St. Mihiel?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q560",
+        "question": "How many calories did an American soldier consume on the morning of November 11, 1918?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q561",
+        "question": "What specific brand of boots did General Pershing wear during his meeting with Foch on September 2?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q562",
+        "question": "Which American soldier fired the final shot at the Battle of Cantigny?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q563",
+        "question": "What was the exact weight of the provisions carried by the 332nd Infantry when they arrived in Italy?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q564",
+        "question": "How many letters did Private William J. Cairns write home before being captured?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q565",
+        "question": "What was the exact wind speed at H-hour during the assault on the Bellicourt Tunnel?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q566",
+        "question": "What was the name of the dog adopted by the 1st Pursuit Group at Touquin?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q567",
+        "question": "How many total pages were in the operational order for the attack on Montsec?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q568",
+        "question": "What specific train car number transported General Lejeune to the Fourth Army's front?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q569",
+        "question": "Which exact French aircraft was the first to fly over St. Mihiel on September 12?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q570",
+        "question": "What was the precise depth in inches of the mud along the Rupt de Mad?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q571",
+        "question": "Which factory in Germany manufactured the barbed wire used in the Hindenburg Line?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q572",
+        "question": "What was the exact fuel consumption rate of a Schneider CA1 tank per kilometer?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q573",
+        "question": "How many individual sandbags were used by the 28th Infantry at Cantigny?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q574",
+        "question": "What was the exact temperature in Paris on the day the armistice was signed?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q575",
+        "question": "What was the name of the ship that transported the 32nd Division back to the US?",
+        "type": "unanswerable",
+        "relevant_documents": [],
+        "reference_passages": [],
+        "answer": ""
+    },
+    {
+        "id": "q576",
+        "question": "who was the general that commanded the AEF during ww1?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "The American commander, General John J. Pershing, had to coordinate with foreign countries for training, logistical support, and operational planning. Nevertheless, he maintained total authority over American military operations in Europe, and his decisions ensured the development of a distinctive American military identity."
+        ],
+        "answer": "General John J. Pershing was the commander of the American Expeditionary Forces (AEF) during World War I."
+    },
+    {
+        "id": "q577",
+        "question": "what emergency act was passed to raise the national army?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "The resulting Selective Service Act, enacted on 18 May 1917, called for all males between twenty-one and thirty years of age to register with local draft boards... The core of the new legislation empowered the president to raise one million men through conscription as part of a new “National Army.”"
+        ],
+        "answer": "The Selective Service Act, enacted on May 18, 1917, was the emergency legislation passed to empower the president to raise the new National Army through conscription."
+    },
+    {
+        "id": "q578",
+        "question": "how many americans served in the war in total?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-2.pdf"
+        ],
+        "reference_passages": [
+            "World War I remains one of the defining events in the history of the U.S. Army. In all, more than four million served and half of them deployed overseas."
+        ],
+        "answer": "In total, more than four million Americans served in the U.S. Army during World War I, with half of them deploying overseas."
+    },
+    {
+        "id": "q579",
+        "question": "what is the name of the generalissimo of allied armies appointed in march 1918?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "On 26 March, the Allies appointed French General Ferdinand Foch to the position of “generalissimo,” with the official title of General in Chief of the Allied Armies."
+        ],
+        "answer": "French General Ferdinand Foch was appointed to the position of 'generalissimo' with the official title of General in Chief of the Allied Armies in March 1918."
+    },
+    {
+        "id": "q580",
+        "question": "which us division had marines in it",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "the 2d Division—which had one infantry brigade of soldiers and another of U.S. marines— were still in an intermediate phase of training"
+        ],
+        "answer": "The U.S. 2nd Division contained a brigade of U.S. Marines (the 4th Marine Brigade) alongside an infantry brigade of Army soldiers."
+    },
+    {
+        "id": "q581",
+        "question": "what was the nickname of the 42d division?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "The 42d Division, composed of National Guard units from so many states that it took the nickname of “Rainbow Division”"
+        ],
+        "answer": "The 42nd Division was widely known by the nickname the 'Rainbow Division' because it was composed of National Guard units from many different states."
+    },
+    {
+        "id": "q582",
+        "question": "who was the top german commander who launched the spring offensives?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "General Erich Ludendorff, the de facto head of the German Army, initiated two enormous German offensives that drove back the Allies... Ludendorff launched his first spring offensive, Operation Michael, near St. Quentin in mid-March."
+        ],
+        "answer": "General Erich Ludendorff, serving as the de facto head of the German Army, was the top commander who planned and launched the massive spring offensives in 1918."
+    },
+    {
+        "id": "q583",
+        "question": "where was the AEF headquarters located starting in september 1917?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-3.pdf"
+        ],
+        "reference_passages": [
+            "In early September, he selected the provincial town of Chaumont, 150 miles east of Paris and 50 miles behind the front lines, as the permanent site for the AEF GHQ."
+        ],
+        "answer": "Starting in early September 1917, the permanent site for the AEF General Headquarters (GHQ) was located in the provincial town of Chaumont, France."
+    },
+    {
+        "id": "q584",
+        "question": "what river did the 3rd division defend in july 1918 becoming the rock?",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-5.pdf"
+        ],
+        "reference_passages": [
+            "four companies from the 109th and 110th Infantry regiments held forward positions along the southern bank of the Marne... the 38th Infantry’s right flank exposed. Turning some of the regiment to defend that flank... the riflemen and machine gunners of the 38th Infantry held, earning the sobriquet “Rock of the Marne.”"
+        ],
+        "answer": "The 3rd Division valiantly defended the Marne River in July 1918. Their unbreakable defense against massive German attacks earned the 38th Infantry Regiment the famous nickname 'Rock of the Marne'."
+    },
+    {
+        "id": "q585",
+        "question": "which american regiment served in italy during ww1",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "The United States ultimately agreed to send one infantry regiment to Italy. Pershing chose the AEF’s 332d Infantry from the 83d (Ohio) Division for the duty"
+        ],
+        "answer": "The 332d Infantry Regiment, originally from the 83d (Ohio) Division, was the sole American infantry regiment selected by Pershing to serve in Italy during World War I."
+    },
+    {
+        "id": "q586",
+        "question": "how many planes did billy mitchell have at st mihiel",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "With a total of 1,481 aircraft, including 366 observation airplanes, 323 day bombers, 91 night bombers, and 701 pursuit aircraft, the St. Mihiel Offensive was the largest assembly of aviation assets committed to a single operation"
+        ],
+        "answer": "Colonel Billy Mitchell had command of a massive armada of 1,481 Allied aircraft to support the First Army during the St. Mihiel Offensive."
+    },
+    {
+        "id": "q587",
+        "question": "what town did the 1st division capture first in may 1918",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-4.pdf"
+        ],
+        "reference_passages": [
+            "the American and French commanders decided to allow the 1st Division to make a short but sharp advance to seize and hold Cantigny... The 2d Battalion, 28th Infantry, which seized Cantigny itself, reported that it had taken its objectives"
+        ],
+        "answer": "In late May 1918, the 1st Division fought its first major battle and successfully captured the French town of Cantigny."
+    },
+    {
+        "id": "q588",
+        "question": "who commanded the tank corps brigade at st mihiel",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "Brig. Gen. Samuel D. Rockenback, commander of all AEF tank units and training centers, assigned Lt. Col. George S. Patton Jr. and the Tank Corps’ 304th Brigade to the First Army for the operation."
+        ],
+        "answer": "Lieutenant Colonel George S. Patton Jr. commanded the Tank Corps' 304th Brigade during the St. Mihiel operation."
+    },
+    {
+        "id": "q589",
+        "question": "what battle did the australians and americans fight together on july 4",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-6.pdf"
+        ],
+        "reference_passages": [
+            "A Case Study in Amalgamation: Hamel (4 July 1918)... the Battle of Hamel on 4 July would show the British not only that the Americans could fight, but also that they could be integrated effectively into a British set-piece operation."
+        ],
+        "answer": "On July 4, 1918, Australian and American troops successfully fought together in a fully integrated coalition attack at the Battle of Hamel."
+    },
+    {
+        "id": "q590",
+        "question": "what fake attack did the americans plan to trick the germans before st mihiel",
+        "type": "noisy",
+        "relevant_documents": [
+            "77-7.pdf"
+        ],
+        "reference_passages": [
+            "To further deceive the Germans that the American attack would take place through the Belfort Gap, General Conner, the AEF operations officer, created an elaborate ruse. He gave Maj. Gen. Omar Bundy, commanding general of the VI Army Corps, detailed plans for a fictitious offensive leading out of Belfort"
+        ],
+        "answer": "Before St. Mihiel, the Americans planned an elaborate ruse to trick the Germans into believing they were mounting a massive offensive out of the Belfort Gap."
+    }
+]

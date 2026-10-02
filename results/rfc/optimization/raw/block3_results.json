@@ -1,0 +1,345 @@
+[
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7812,
+      "PassageRecall@5": 0.9375,
+      "R-Precision@5": 0.6562,
+      "DocNDCG@5": 0.7207,
+      "PassageNDCG@5": 0.7284
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.7031,
+      "PassageRecall@5": 0.8906,
+      "R-Precision@5": 0.7969,
+      "DocNDCG@5": 0.69,
+      "PassageNDCG@5": 0.489
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 0.9,
+      "DocNDCG@5": 0.9431,
+      "PassageNDCG@5": 0.6992
+    },
+    "all": {
+      "DocRecall@5": 0.777,
+      "PassageRecall@5": 0.9122,
+      "R-Precision@5": 0.6167,
+      "DocNDCG@5": 0.6064,
+      "PassageNDCG@5": 0.6209
+    },
+    "config": {
+      "id": 1,
+      "retrieval": "vector",
+      "k_retrieve": 5,
+      "rerank": false,
+      "k_final": 5,
+      "note": "Baseline standard (Vector)"
+    },
+    "avg_latency_sec": 0.27,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.875,
+      "PassageRecall@5": 0.875,
+      "R-Precision@5": 0.6875,
+      "DocNDCG@5": 0.7808,
+      "PassageNDCG@5": 0.5943
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.6562,
+      "PassageRecall@5": 0.9531,
+      "R-Precision@5": 0.8281,
+      "DocNDCG@5": 0.6771,
+      "PassageNDCG@5": 0.6262
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 0.9,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 0.8,
+      "DocNDCG@5": 0.8631,
+      "PassageNDCG@5": 0.7193
+    },
+    "all": {
+      "DocRecall@5": 0.7838,
+      "PassageRecall@5": 0.9122,
+      "R-Precision@5": 0.6278,
+      "DocNDCG@5": 0.6143,
+      "PassageNDCG@5": 0.625
+    },
+    "config": {
+      "id": 2,
+      "retrieval": "bm25",
+      "k_retrieve": 5,
+      "rerank": false,
+      "k_final": 5,
+      "note": "Baseline lessicale (BM25)"
+    },
+    "avg_latency_sec": 0.001,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7812,
+      "PassageRecall@5": 0.9062,
+      "R-Precision@5": 0.6875,
+      "DocNDCG@5": 0.7426,
+      "PassageNDCG@5": 0.6981
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.7031,
+      "PassageRecall@5": 0.9375,
+      "R-Precision@5": 0.7969,
+      "DocNDCG@5": 0.6838,
+      "PassageNDCG@5": 0.5361
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.8,
+      "R-Precision@5": 0.9,
+      "DocNDCG@5": 0.95,
+      "PassageNDCG@5": 0.6562
+    },
+    "all": {
+      "DocRecall@5": 0.777,
+      "PassageRecall@5": 0.9054,
+      "R-Precision@5": 0.6278,
+      "DocNDCG@5": 0.6127,
+      "PassageNDCG@5": 0.6224
+    },
+    "config": {
+      "id": 3,
+      "retrieval": "hybrid",
+      "k_retrieve": 20,
+      "rerank": false,
+      "k_final": 5,
+      "note": "Baseline ibrida (BM25 + Vector con RRF)"
+    },
+    "avg_latency_sec": 0.306,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.8125,
+      "PassageRecall@5": 0.8438,
+      "R-Precision@5": 0.7188,
+      "DocNDCG@5": 0.7716,
+      "PassageNDCG@5": 0.7191
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.6562,
+      "PassageRecall@5": 0.875,
+      "R-Precision@5": 0.7188,
+      "DocNDCG@5": 0.6222,
+      "PassageNDCG@5": 0.5593
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 1.0,
+      "DocNDCG@5": 1.0,
+      "PassageNDCG@5": 0.6992
+    },
+    "all": {
+      "DocRecall@5": 0.7703,
+      "PassageRecall@5": 0.8649,
+      "R-Precision@5": 0.6222,
+      "DocNDCG@5": 0.6067,
+      "PassageNDCG@5": 0.6473
+    },
+    "config": {
+      "id": 4,
+      "retrieval": "vector",
+      "k_retrieve": 10,
+      "rerank": true,
+      "k_final": 5,
+      "note": "Vector (k=10) + Rerank a 5"
+    },
+    "avg_latency_sec": 16.97,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.9062,
+      "PassageRecall@5": 0.9062,
+      "R-Precision@5": 0.8438,
+      "DocNDCG@5": 0.8791,
+      "PassageNDCG@5": 0.7116
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.625,
+      "PassageRecall@5": 0.9219,
+      "R-Precision@5": 0.8125,
+      "DocNDCG@5": 0.6281,
+      "PassageNDCG@5": 0.6025
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 1.0,
+      "DocNDCG@5": 1.0,
+      "PassageNDCG@5": 0.6992
+    },
+    "all": {
+      "DocRecall@5": 0.7973,
+      "PassageRecall@5": 0.9122,
+      "R-Precision@5": 0.7,
+      "DocNDCG@5": 0.647,
+      "PassageNDCG@5": 0.6628
+    },
+    "config": {
+      "id": 5,
+      "retrieval": "hybrid",
+      "k_retrieve": 10,
+      "rerank": true,
+      "k_final": 5,
+      "note": "Hybrid (k=10) + Rerank a 5"
+    },
+    "avg_latency_sec": 16.636,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.7812,
+      "PassageRecall@5": 0.875,
+      "R-Precision@5": 0.7188,
+      "DocNDCG@5": 0.7582,
+      "PassageNDCG@5": 0.712
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.5781,
+      "PassageRecall@5": 0.9062,
+      "R-Precision@5": 0.75,
+      "DocNDCG@5": 0.6054,
+      "PassageNDCG@5": 0.5592
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 1.0,
+      "DocNDCG@5": 1.0,
+      "PassageNDCG@5": 0.6905
+    },
+    "all": {
+      "DocRecall@5": 0.723,
+      "PassageRecall@5": 0.8919,
+      "R-Precision@5": 0.6333,
+      "DocNDCG@5": 0.5959,
+      "PassageNDCG@5": 0.643
+    },
+    "config": {
+      "id": 6,
+      "retrieval": "vector",
+      "k_retrieve": 20,
+      "rerank": true,
+      "k_final": 5,
+      "note": "Deep Vector (k=20) + Rerank a 5 - Sfrutta a pieno il cross-encoder"
+    },
+    "avg_latency_sec": 31.955,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  },
+  {
+    "single_doc": {
+      "DocRecall@5": 0.9062,
+      "PassageRecall@5": 0.9062,
+      "R-Precision@5": 0.8438,
+      "DocNDCG@5": 0.8769,
+      "PassageNDCG@5": 0.7198
+    },
+    "multi_doc": {
+      "DocRecall@5": 0.625,
+      "PassageRecall@5": 0.9062,
+      "R-Precision@5": 0.7812,
+      "DocNDCG@5": 0.6441,
+      "PassageNDCG@5": 0.5385
+    },
+    "unanswerable": {
+      "DocRecall@5": null,
+      "PassageRecall@5": null,
+      "R-Precision@5": 0.0,
+      "DocNDCG@5": 0.0,
+      "PassageNDCG@5": null
+    },
+    "noisy": {
+      "DocRecall@5": 1.0,
+      "PassageRecall@5": 0.9,
+      "R-Precision@5": 1.0,
+      "DocNDCG@5": 1.0,
+      "PassageNDCG@5": 0.6948
+    },
+    "all": {
+      "DocRecall@5": 0.7973,
+      "PassageRecall@5": 0.9054,
+      "R-Precision@5": 0.6889,
+      "DocNDCG@5": 0.6519,
+      "PassageNDCG@5": 0.638
+    },
+    "config": {
+      "id": 7,
+      "retrieval": "hybrid",
+      "k_retrieve": 20,
+      "rerank": true,
+      "k_final": 5,
+      "note": "Deep Hybrid (k=20) + Rerank a 5 - La combo più avanzata"
+    },
+    "avg_latency_sec": 31.718,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_tokens_per_query": 0.0
+  }
+]
